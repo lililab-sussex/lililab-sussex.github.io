@@ -1,9 +1,15 @@
 ---
 ---
 
-# lililab-sussex's Website
+# LILI Lab
+We are the Learners of Interpretable Latent Information (LILI) Lab, based in the Department of Informatics, University of Sussex.
+We create interpretable ML models for ”inverse problems”, where the information of interest is not directly measurable. 
 
-An engaging 1-3 sentence description of your lab.
+We aim to build models that are:
+- Useful, providing meaningful insights to our interdisciplinary collaborators.
+- Aware of uncertainty and communicate this.
+- Contributing trustworthy tools for healthcare applications
+
 
 {% include section.html %}
 
