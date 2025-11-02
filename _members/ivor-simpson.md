@@ -2,7 +2,8 @@
 name: Ivor Simpson
 image: images/team-photos/Ivor.jpg
 role: principal-investigator
-affiliation: University of Sussex
+# affiliation: University of Sussex
+description: Probabilistic machine learning for inverse problems with spatiotemporal data.
 aliases:
   - Ivor J. A. Simpson
   - I. J. A. Simpson
