@@ -1,7 +1,7 @@
 # site properties and page defaults
-title: LILI Lab Website
-subtitle: Sussex AI, University of Sussex
-description: We are the Learners of Interpretable Latent Information Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable. 
+title: Learners of Interpretable Latent Information Lab
+subtitle: Interpretable AI Research at the University of Sussex
+description: We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable. 
 
 header: images/background.jpg
 footer: images/background.jpg
