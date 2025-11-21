@@ -3,8 +3,8 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
+  --primary: #A7EA52;
+  --secondary: #4E41DF;
   --text: #000000;
   --background: #ffffff;
   --background-alt: #fafafa;
@@ -14,8 +14,8 @@
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
+  --primary: #A7EA52;
+  --secondary: #4E41DF;
   --text: #ffffff;
   --background: #181818;
   --background-alt: #1c1c1c;
@@ -27,10 +27,11 @@
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  --logo: "Bungee", cursive;
+  --title: "Noto Sans Mono", monospace;
+  --heading: "Noto Sans Mono", monospace;
+  --body: "Noto Sans Mono", monospace;
+  --code: "Noto Sans Mono", monospace;
 
   // font sizes
   --large: 1.2rem;
