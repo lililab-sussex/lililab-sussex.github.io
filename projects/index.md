@@ -1,27 +1,52 @@
 ---
-title: Projects
+title: What We Do
 nav:
-  order: 2
-  tooltip: Software, datasets, and more
+  order: 1
+  tooltip: Opportunities, continual learning, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}What we do
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %}
+Our work spans method development, tooling, and community efforts. Explore the areas below for more detail on how we learn together, build software, engage outside the lab, and create opportunities to collaborate or join the team.
 
 {% include section.html %}
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="/projects/opportunities"
+  title="Opportunities"
+  flip=true
+  style="bare"
+  text="Ways to work with us or collaborate:
+  - [Working in our lab](/projects/opportunities/working-in-our-lab): expectations, skills, and resources for joining.
+- [Collaborating with us](/projects/opportunities/collaborating-with-us): how we scope projects with partners and keep work reproducible."
+%}
 
-## Featured
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
-{% include section.html %}
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="/projects/continual-learning"
+  title="Continual Learning"
+  text="Reading group, book club, and teaching highlights."
+%}
 
-## More
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="/projects/software"
+  title="Software"
+  flip=true
+  style="bare"
+  text="Research tooling and reproducible codebases."
+%}
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{%
+  include feature.html
+  image="images/photos/soap_box.jpeg"
+  link="projects/outreach"
+  title="Outreach"
+  text="Engagement like international teaching and science fairs."
+%}
+

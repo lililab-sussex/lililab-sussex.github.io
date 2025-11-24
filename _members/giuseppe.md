@@ -1,0 +1,15 @@
+---
+name: Giuseppe Castiglione
+image: images/team-photos/Giuseppe.jpeg
+role: phd
+# affiliation: University of Sussex
+description: Learning as a self‑organising dynamical process, using tools from physics to probe training and representation formation
+aliases:
+  - Giuseppe Castiglione
+links:
+  home-page: https://profiles.sussex.ac.uk/p606141-giuseppe-castiglione
+  orcid: 0000-0001-5605-6626
+  linkedin: ivor-simpson-9a21b463
+---
+
+DNNs are powerful but opaque, limiting trust.  I study learning as a self‑organising dynamical process, using tools from physics to probe training and representation formation. My work spans: (1) what gradient descent learns preferentially (2) new algorithms exploiting alternative hardware and symbolic/structured inference.   Keywords: optimisation theory, AI safety, bio-inspired algorithms.

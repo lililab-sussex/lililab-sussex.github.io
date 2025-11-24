@@ -13,75 +13,80 @@ We aim to build models that are:
 
 {% include section.html %}
 
-## Highlights
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+## What We Do
 {%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
+  include feature.html
+  image="images/photo.jpg"
+  link="projects/opportunities"
+  title="Opportunities"
   flip=true
   style="bare"
+  text="Ways to work with us or collaborate."
 %}
-
-{% endcapture %}
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="projects/continual-learning"
+  title="Continual Learning"
+  text="Reading groups, book clubs, and teaching highlights."
+%}
 
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
+  link="projects/software"
+  title="Software"
   flip=true
   style="bare"
+  text="Research tooling and reproducible codebases."
 %}
-
-{% endcapture %}
 
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
+  link="projects/outreach"
+  title="Outreach"
+  text="Engagement like science fairs, and international teaching projects."
 %}
 
-{% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include section.html %}
 
-{% endcapture %}
+## Our Research Themes
 
 {%
   include feature.html
   image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
+  link="research/medical-image-analysis"
+  title="Medical Image Analysis"
+  text="Interpretable methods for MRI reconstruction, registration, and other imaging inverse problems."
+%}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="research/computer-vision"
+  title="Computer Vision"
+  flip=true
+  style="bare"
+  text="Models that balance performance and interpretability across recognition, reconstruction, and visual understanding."
+%}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="research/ecological-monitoring"
+  title="Ecological Monitoring"
+  text="Learning from species and environmental data with transparent predictions for field collaborators."
+%}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="research/machine-learning"
+  title="Machine Learning Methods"
+  flip=true
+  style="bare"
+  text="Core probabilistic modeling, uncertainty quantification, and efficient training tailored to inverse problems."
 %}

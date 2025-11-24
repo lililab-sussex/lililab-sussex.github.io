@@ -1,10 +1,10 @@
 ---
 ---
 
-// colors
+/* colors */
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
+  --primary: #A7EA52;
+  --secondary: #4E41DF;
   --text: #000000;
   --background: #ffffff;
   --background-alt: #fafafa;
@@ -13,9 +13,10 @@
   --dark-gray: #404040;
   --overlay: #00000020;
 }
+
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
+  --primary: #A7EA52;
+  --secondary: #4E41DF;
   --text: #ffffff;
   --background: #181818;
   --background-alt: #1c1c1c;
@@ -26,28 +27,29 @@
 }
 
 :root {
-  // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  /* font families */
+  --logo: "Bungee", cursive;
+  --title: "Noto Sans Mono", monospace;
+  --heading: "Noto Sans Mono", monospace;
+  --body: "Noto Sans Mono", monospace;
+  --code: "Noto Sans Mono", monospace;
 
-  // font sizes
+  /* font sizes */
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
 
-  // font weights
+  /* font weights */
   --thin: 200;
   --regular: 400;
   --semi-bold: 500;
   --bold: 600;
 
-  // text line spacing
+  /* text line spacing */
   --spacing: 2;
   --compact: 1.5;
 
-  // effects
+  /* effects */
   --rounded: 3px;
   --shadow: 0 0 10px 0 var(--overlay);
   --transition: 0.2s ease;
