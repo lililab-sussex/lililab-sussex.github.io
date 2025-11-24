@@ -11,8 +11,21 @@ header {
   z-index: 10 !important;
 }
 
+header.background {
+  background: var(--secondary);
+  color: #ffffff;
+}
+
+header.background:before {
+  display: none;
+}
+
+header.background a {
+  color: #ffffff;
+}
+
 header a {
-  color: var(--text);
+  color: inherit;
   text-decoration: none;
 }
 
@@ -33,6 +46,12 @@ header a {
 .logo > * {
   width: unset;
   height: 100%;
+}
+
+.logo svg,
+.logo svg path {
+  fill: var(--primary);
+  stroke: var(--primary);
 }
 
 .title-text {
@@ -63,7 +82,7 @@ header a {
   margin: 0;
   color: var(--text);
   appearance: none;
-  transition: background var(--transition);
+  transition: var(--transition);
 }
 
 .nav-toggle:after {
@@ -92,12 +111,43 @@ nav {
   text-transform: uppercase;
 }
 
-nav > a {
+.nav-item {
+  position: relative;
+}
+
+nav > .nav-item > a {
   padding: 5px;
 }
 
-nav > a:hover {
+nav > .nav-item > a:hover {
   color: var(--primary);
+}
+
+nav .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background: var(--background);
+  box-shadow: var(--shadow);
+  padding: 10px;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 5;
+}
+
+nav .dropdown a {
+  padding: 5px;
+  text-transform: none;
+}
+
+nav .dropdown a:hover {
+  color: var(--primary);
+}
+
+nav .nav-item.has-children:hover .dropdown {
+  display: flex;
 }
 
 @media (max-width: 700px) {
@@ -114,6 +164,23 @@ nav > a:hover {
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
+  }
+  header:not([data-big]) nav .nav-item {
+    width: 100%;
+  }
+  header:not([data-big]) nav .dropdown {
+    position: relative;
+    top: unset;
+    left: unset;
+    width: 100%;
+    box-shadow: none;
+    padding-left: 15px;
+  }
+  header:not([data-big]) nav .nav-item.has-children .dropdown {
+    display: none;
+  }
+  header:not([data-big]) nav .nav-item.has-children:hover .dropdown {
+    display: flex;
   }
 }
 

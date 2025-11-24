@@ -159,6 +159,10 @@
   
 
   
+    <link href="/_styles/contact.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
   
 
@@ -340,6 +344,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -358,6 +364,8 @@
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/fetch_orcid.py"></script>
 
   <script src="/_scripts/search.js"></script>
 
@@ -405,35 +413,86 @@
   <nav>
     
     
+    
       
+      <div class="nav-item has-children">
+        <a href="/projects/" data-tooltip="Opportunities, continual learning, and more">
+          What We Do
+        </a>
+        
+          <div class="dropdown">
+            
+              <a href="/projects/" data-tooltip="Reading group, book club, teaching">
+                Continual Learning
+              </a>
+            
+              <a href="/projects/" data-tooltip="Research tooling and code">
+                Software
+              </a>
+            
+              <a href="/projects/" data-tooltip="Community engagement">
+                Outreach
+              </a>
+            
+              <a href="/projects/opportunities/" data-tooltip="Roles and collaborations">
+                Opportunities
+              </a>
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="nav-item has-children">
         <a href="/research/" data-tooltip="Published works">
-          Research
+          Research Themes
         </a>
-      
+        
+          <div class="dropdown">
+            
+              <a href="/research/" data-tooltip="Imaging and MRI">
+                Medical Image Analysis
+              </a>
+            
+              <a href="/research/" data-tooltip="Vision applications">
+                Computer Vision
+              </a>
+            
+              <a href="/research/" data-tooltip="Ecology and monitoring">
+                Ecological Monitoring
+              </a>
+            
+              <a href="/research/" data-tooltip="Methods and theory">
+                Machine Learning
+              </a>
+            
+          </div>
+        
+      </div>
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
-        </a>
-      
-    
-      
+      <div class="nav-item ">
         <a href="/team/" data-tooltip="About our team">
           Team
         </a>
-      
+        
+      </div>
     
       
-        <a href="/blog/" data-tooltip="Musings and miscellany">
-          Blog
+      <div class="nav-item ">
+        <a href="/publication/" data-tooltip="Published works">
+          Publications
         </a>
-      
+        
+      </div>
     
       
-        <a href="/contact/" data-tooltip="Email, address, and location">
+      <div class="nav-item ">
+        <a href="/contact/" data-tooltip="Emails, address, and location">
           Contact
         </a>
-      
+        
+      </div>
     
   </nav>
 </header>
@@ -479,76 +538,121 @@ We create interpretable ML models for ”inverse problems”, where the informat
   <size></size>
 -->
 
-<h2 id="highlights">Highlights</h2>
-
-<div class="feature">
-  <a href="/research" class="feature-image" aria-label="Our Research">
-    <img src="/images/photo.jpg" loading="lazy" alt="Our Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<h2 id="what-we-do">What We Do</h2>
+<div class="feature" data-flip="">
+  <a href="/projects/opportunities" class="feature-image" aria-label="Opportunities">
+    <img src="/images/photo.jpg" loading="lazy" alt="Opportunities" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Research</p>
+      <p class="feature-title">Opportunities</p>
     
-    
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Ways to work with us or collaborate.</p>
 
-<div class="button-wrapper">
-    <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>See our publications</span>
-      
-    </a>
   </div>
+</div>
 
+<div class="feature">
+  <a href="/projects/continual-learning" class="feature-image" aria-label="Continual Learning">
+    <img src="/images/photo.jpg" loading="lazy" alt="Continual Learning" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Continual Learning</p>
+    
+    <p>Reading groups, book clubs, and teaching highlights.</p>
 
   </div>
 </div>
 
 <div class="feature" data-flip="">
-  <a href="/projects" class="feature-image" aria-label="Our Projects">
-    <img src="/images/photo.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/projects/software" class="feature-image" aria-label="Software">
+    <img src="/images/photo.jpg" loading="lazy" alt="Software" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Projects</p>
+      <p class="feature-title">Software</p>
     
-    
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/projects" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Browse our projects</span>
-      
-    </a>
-  </div>
-
+    <p>Research tooling and reproducible codebases.</p>
 
   </div>
 </div>
 
 <div class="feature">
-  <a href="/team" class="feature-image" aria-label="Our Team">
-    <img src="/images/photo.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="/projects/outreach" class="feature-image" aria-label="Outreach">
+    <img src="/images/photo.jpg" loading="lazy" alt="Outreach" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
-      <p class="feature-title">Our Team</p>
+      <p class="feature-title">Outreach</p>
     
-    
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p>Engagement like science fairs, and international teaching projects.</p>
 
-<div class="button-wrapper">
-    <a class="button" href="/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Meet our team</span>
-      
-    </a>
   </div>
+</div>
+  </section>
 
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="our-research-themes">Our Research Themes</h2>
+
+<div class="feature">
+  <a href="/research/medical-image-analysis" class="feature-image" aria-label="Medical Image Analysis">
+    <img src="/images/photo.jpg" loading="lazy" alt="Medical Image Analysis" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Medical Image Analysis</p>
+    
+    <p>Interpretable methods for MRI reconstruction, registration, and other imaging inverse problems.</p>
+
+  </div>
+</div>
+
+<div class="feature" data-flip="">
+  <a href="/research/computer-vision" class="feature-image" aria-label="Computer Vision">
+    <img src="/images/photo.jpg" loading="lazy" alt="Computer Vision" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Computer Vision</p>
+    
+    <p>Models that balance performance and interpretability across recognition, reconstruction, and visual understanding.</p>
+
+  </div>
+</div>
+
+<div class="feature">
+  <a href="/research/ecological-monitoring" class="feature-image" aria-label="Ecological Monitoring">
+    <img src="/images/photo.jpg" loading="lazy" alt="Ecological Monitoring" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Ecological Monitoring</p>
+    
+    <p>Learning from species and environmental data with transparent predictions for field collaborators.</p>
+
+  </div>
+</div>
+
+<div class="feature" data-flip="">
+  <a href="/research/machine-learning" class="feature-image" aria-label="Machine Learning Methods">
+    <img src="/images/photo.jpg" loading="lazy" alt="Machine Learning Methods" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Machine Learning Methods</p>
+    
+    <p>Core probabilistic modeling, uncertainty quantification, and efficient training tailored to inverse problems.</p>
 
   </div>
 </div>

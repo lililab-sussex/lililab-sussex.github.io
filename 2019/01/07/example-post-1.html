@@ -66,10 +66,10 @@
 
   <meta name="author" content="sarah-johnson">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-11-21T15:28:06+00:00">
+  <meta property="og:updated_time" content="2025-11-24T19:11:14+00:00">
   <meta property="article:published_time" content="2019-01-07T00:00:00+00:00">
-  <meta property="article:modified_time" content="2025-11-21T15:28:06+00:00">
-  <meta name="revised" content="2025-11-21T15:28:06+00:00">
+  <meta property="article:modified_time" content="2025-11-24T19:11:14+00:00">
+  <meta name="revised" content="2025-11-24T19:11:14+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Example post 1" },
       "datePublished": "2019-01-07T00:00:00+00:00",
-      "dateModified": "2025-11-21T15:28:06+00:00",
+      "dateModified": "2025-11-24T19:11:14+00:00",
     
     "name": "Example post 1",
     "description": "Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.",
@@ -164,6 +164,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/contact.css" rel="stylesheet">
   
 
   
@@ -313,6 +317,8 @@
 
   <script src="/_scripts/fetch-tags.js"></script>
 
+  <script src="/_scripts/fetch_orcid.py"></script>
+
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
@@ -359,35 +365,86 @@
   <nav>
     
     
+    
       
+      <div class="nav-item has-children">
+        <a href="/projects/" data-tooltip="Opportunities, continual learning, and more">
+          What We Do
+        </a>
+        
+          <div class="dropdown">
+            
+              <a href="/projects/" data-tooltip="Reading group, book club, teaching">
+                Continual Learning
+              </a>
+            
+              <a href="/projects/" data-tooltip="Research tooling and code">
+                Software
+              </a>
+            
+              <a href="/projects/" data-tooltip="Community engagement">
+                Outreach
+              </a>
+            
+              <a href="/projects/opportunities/" data-tooltip="Roles and collaborations">
+                Opportunities
+              </a>
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="nav-item has-children">
         <a href="/research/" data-tooltip="Published works">
-          Research
+          Research Themes
         </a>
-      
+        
+          <div class="dropdown">
+            
+              <a href="/research/" data-tooltip="Imaging and MRI">
+                Medical Image Analysis
+              </a>
+            
+              <a href="/research/" data-tooltip="Vision applications">
+                Computer Vision
+              </a>
+            
+              <a href="/research/" data-tooltip="Ecology and monitoring">
+                Ecological Monitoring
+              </a>
+            
+              <a href="/research/" data-tooltip="Methods and theory">
+                Machine Learning
+              </a>
+            
+          </div>
+        
+      </div>
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
-        </a>
-      
-    
-      
+      <div class="nav-item ">
         <a href="/team/" data-tooltip="About our team">
           Team
         </a>
-      
+        
+      </div>
     
       
-        <a href="/blog/" data-tooltip="Musings and miscellany">
-          Blog
+      <div class="nav-item ">
+        <a href="/publication/" data-tooltip="Published works">
+          Publications
         </a>
-      
+        
+      </div>
     
       
-        <a href="/contact/" data-tooltip="Email, address, and location">
+      <div class="nav-item ">
+        <a href="/contact/" data-tooltip="Emails, address, and location">
           Contact
         </a>
-      
+        
+      </div>
     
   </nav>
 </header>
@@ -425,34 +482,10 @@
     
       
       
-        
-
-
-
-<div class="portrait-wrapper">
-  <a href="/members/sarah-johnson.html" class="portrait" data-style="tiny" aria-label="Sarah Johnson">
-    
-      <i class="icon fa-solid fa-code"></i>
-    
-
-    <img src="/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        Sarah Johnson
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Lead Programmer
-      </span>
-    
-
-    
-  </a>
-</div>
-
+        <span data-tooltip="Author">
+          <i class="icon fa-solid fa-feather-pointed"></i>
+          <span>sarah-johnson</span>
+        </span>
       
     
   
@@ -470,7 +503,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>November 21, 2025</span>
+      <span>November 24, 2025</span>
     </span>
   
 </div>

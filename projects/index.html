@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Projects | Learners of Interpretable Latent Information</title>
+<title>What We Do | Learners of Interpretable Latent Information</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Projects">
+<meta name="title" content="What We Do">
 <meta name="description" content="Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.">
 
-<meta property="og:title" content="Projects">
+<meta property="og:title" content="What We Do">
 <meta property="og:site_title" content="Learners of Interpretable Latent Information">
 <meta property="og:description" content="Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.">
 <meta property="og:url" content="https://lililab-sussex.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Projects">
+<meta property="twitter:title" content="What We Do">
 <meta property="twitter:description" content="Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.">
 <meta property="twitter:url" content="https://lililab-sussex.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Projects",
+    "name": "What We Do",
     "description": "Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.",
-    "headline": "Projects",
+    "headline": "What We Do",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -156,6 +156,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/contact.css" rel="stylesheet">
   
 
   
@@ -340,6 +344,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -358,6 +364,8 @@
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/fetch_orcid.py"></script>
 
   <script src="/_scripts/search.js"></script>
 
@@ -405,35 +413,86 @@
   <nav>
     
     
+    
       
+      <div class="nav-item has-children">
+        <a href="/projects/" data-tooltip="Opportunities, continual learning, and more">
+          What We Do
+        </a>
+        
+          <div class="dropdown">
+            
+              <a href="/projects/" data-tooltip="Reading group, book club, teaching">
+                Continual Learning
+              </a>
+            
+              <a href="/projects/" data-tooltip="Research tooling and code">
+                Software
+              </a>
+            
+              <a href="/projects/" data-tooltip="Community engagement">
+                Outreach
+              </a>
+            
+              <a href="/projects/opportunities/" data-tooltip="Roles and collaborations">
+                Opportunities
+              </a>
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="nav-item has-children">
         <a href="/research/" data-tooltip="Published works">
-          Research
+          Research Themes
         </a>
-      
+        
+          <div class="dropdown">
+            
+              <a href="/research/" data-tooltip="Imaging and MRI">
+                Medical Image Analysis
+              </a>
+            
+              <a href="/research/" data-tooltip="Vision applications">
+                Computer Vision
+              </a>
+            
+              <a href="/research/" data-tooltip="Ecology and monitoring">
+                Ecological Monitoring
+              </a>
+            
+              <a href="/research/" data-tooltip="Methods and theory">
+                Machine Learning
+              </a>
+            
+          </div>
+        
+      </div>
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
-        </a>
-      
-    
-      
+      <div class="nav-item ">
         <a href="/team/" data-tooltip="About our team">
           Team
         </a>
-      
+        
+      </div>
     
       
-        <a href="/blog/" data-tooltip="Musings and miscellany">
-          Blog
+      <div class="nav-item ">
+        <a href="/publication/" data-tooltip="Published works">
+          Publications
         </a>
-      
+        
+      </div>
     
       
-        <a href="/contact/" data-tooltip="Email, address, and location">
+      <div class="nav-item ">
+        <a href="/contact/" data-tooltip="Emails, address, and location">
           Contact
         </a>
-      
+        
+      </div>
     
   </nav>
 </header>
@@ -456,29 +515,10 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="projects">
-<i class="icon fa-solid fa-wrench"></i>Projects</h1>
+    <h1 id="what-we-do">
+<i class="icon fa-solid fa-wrench"></i>What we do</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<div class="tags">
-    
-      <a href="/projects/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20website%22" class="tag" data-tooltip='Show items with the tag "website"'>
-        website
-      </a>
-    
-  </div>
-
-<div class="search-info"></div>
+<p>Our work spans method development, tooling, and community efforts. Explore the areas below for more detail on how we learn together, build software, engage outside the lab, and create opportunities to collaborate or join the team.</p>
   </section>
 
   
@@ -492,223 +532,61 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <size></size>
 -->
 
-<h2 id="featured">Featured</h2>
-
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Dataset" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Dataset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<div class="feature" data-flip="">
+  <a href="/projects/opportunities" class="feature-image" aria-label="Opportunities">
+    <img src="/images/photo.jpg" loading="lazy" alt="Opportunities" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Opportunities</p>
+    
+    <p>Ways to work with us or collaborate:</p>
+<ul>
+  <li>
+<a href="/projects/opportunities/working-in-our-lab">Working in our lab</a>: expectations, skills, and resources for joining.</li>
+  <li>
+<a href="/projects/opportunities/collaborating-with-us">Collaborating with us</a>: how we scope projects with partners and keep work reproducible.</li>
+</ul>
 
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Dataset
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-  </div>
-
-
-    
   </div>
 </div>
 
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Package" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<div class="feature">
+  <a href="/projects/continual-learning" class="feature-image" aria-label="Continual Learning">
+    <img src="/images/photo.jpg" loading="lazy" alt="Continual Learning" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
-
-  <div class="card-text">
+  <div class="feature-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Package
-    </a>
+      <p class="feature-title">Continual Learning</p>
     
+    <p>Reading group, book club, and teaching highlights.</p>
 
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-  </div>
-
-
-    
-  </div>
-</div>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<h2 id="more">More</h2>
-
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Tutorial" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Tutorial
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
-      </a>
-    
-  </div>
-
-
-    
   </div>
 </div>
 
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web App" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<div class="feature" data-flip="">
+  <a href="/projects/software" class="feature-image" aria-label="Software">
+    <img src="/images/photo.jpg" loading="lazy" alt="Software" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Software</p>
+    
+    <p>Research tooling and reproducible codebases.</p>
 
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Web App
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
-      </a>
-    
-  </div>
-
-
-    
   </div>
 </div>
 
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web Server" class="card-image">
-    <img src="/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<div class="feature">
+  <a href="/projects/outreach" class="feature-image" aria-label="Outreach">
+    <img src="/images/photos/soap_box.jpeg" loading="lazy" alt="Outreach" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Outreach</p>
+    
+    <p>Engagement like international teaching and science fairs.</p>
 
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Web Server
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
-
-
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/projects/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
-      </a>
-    
-  </div>
-
-
-    
   </div>
 </div>
   </section>

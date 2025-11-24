@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Research | Learners of Interpretable Latent Information</title>
+<title>Research Themes | Learners of Interpretable Latent Information</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Research">
+<meta name="title" content="Research Themes">
 <meta name="description" content="Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.">
 
-<meta property="og:title" content="Research">
+<meta property="og:title" content="Research Themes">
 <meta property="og:site_title" content="Learners of Interpretable Latent Information">
 <meta property="og:description" content="Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.">
 <meta property="og:url" content="https://lililab-sussex.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Research">
+<meta property="twitter:title" content="Research Themes">
 <meta property="twitter:description" content="Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.">
 <meta property="twitter:url" content="https://lililab-sussex.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Research",
+    "name": "Research Themes",
     "description": "Interpretable AI Research Lab at the University of Sussex. We are the Learners of Interpretable Latent Information (LILI) Lab, based at the University of Sussex. We create interpretable machine learning models for inverse problems, where the information of interest is not directly measurable.",
-    "headline": "Research",
+    "headline": "Research Themes",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -156,6 +156,10 @@
 
   
     <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/contact.css" rel="stylesheet">
   
 
   
@@ -340,6 +344,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -358,6 +364,8 @@
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/fetch_orcid.py"></script>
 
   <script src="/_scripts/search.js"></script>
 
@@ -405,35 +413,86 @@
   <nav>
     
     
+    
       
+      <div class="nav-item has-children">
+        <a href="/projects/" data-tooltip="Opportunities, continual learning, and more">
+          What We Do
+        </a>
+        
+          <div class="dropdown">
+            
+              <a href="/projects/" data-tooltip="Reading group, book club, teaching">
+                Continual Learning
+              </a>
+            
+              <a href="/projects/" data-tooltip="Research tooling and code">
+                Software
+              </a>
+            
+              <a href="/projects/" data-tooltip="Community engagement">
+                Outreach
+              </a>
+            
+              <a href="/projects/opportunities/" data-tooltip="Roles and collaborations">
+                Opportunities
+              </a>
+            
+          </div>
+        
+      </div>
+    
+      
+      <div class="nav-item has-children">
         <a href="/research/" data-tooltip="Published works">
-          Research
+          Research Themes
         </a>
-      
+        
+          <div class="dropdown">
+            
+              <a href="/research/" data-tooltip="Imaging and MRI">
+                Medical Image Analysis
+              </a>
+            
+              <a href="/research/" data-tooltip="Vision applications">
+                Computer Vision
+              </a>
+            
+              <a href="/research/" data-tooltip="Ecology and monitoring">
+                Ecological Monitoring
+              </a>
+            
+              <a href="/research/" data-tooltip="Methods and theory">
+                Machine Learning
+              </a>
+            
+          </div>
+        
+      </div>
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
-        </a>
-      
-    
-      
+      <div class="nav-item ">
         <a href="/team/" data-tooltip="About our team">
           Team
         </a>
-      
+        
+      </div>
     
       
-        <a href="/blog/" data-tooltip="Musings and miscellany">
-          Blog
+      <div class="nav-item ">
+        <a href="/publication/" data-tooltip="Published works">
+          Publications
         </a>
-      
+        
+      </div>
     
       
-        <a href="/contact/" data-tooltip="Email, address, and location">
+      <div class="nav-item ">
+        <a href="/contact/" data-tooltip="Emails, address, and location">
           Contact
         </a>
-      
+        
+      </div>
     
   </nav>
 </header>
@@ -456,11 +515,17 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="research">
-<i class="icon fa-solid fa-microscope"></i>Research</h1>
+    <h1 id="research-themes">
+<i class="icon fa-solid fa-microscope"></i>Research Themes</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>Our work spans several areas. Dive into each theme:</p>
+
+<ul>
+  <li><a href="./medical-image-analysis">Medical Image Analysis</a></li>
+  <li><a href="./computer-vision">Computer Vision</a></li>
+  <li><a href="./ecological-monitoring">Ecological Monitoring</a></li>
+  <li><a href="./machine-learning">Machine Learning</a></li>
+</ul>
   </section>
 
   
@@ -872,8 +937,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
         MolEvolvR: A web-app for characterizing proteins using molecular evolution and phylogeny
       </a>
 
-      <div class="citation-authors" data-tooltip="Jacob D Krol, Joseph T Burke, Samuel Z Chen, Lo M Sosinski, Faisal S Alquaddoomi, Evan P Brenner, Ethan P Wolfe, Vincent P Rubinetti, Shaddai Amolitos, Kellen M Reason, John B Johnston, Janani Ravi" tabindex="0">
-        Jacob D Krol, Joseph T Burke, Samuel Z Chen, Lo M Sosinski, Faisal S Alquaddoomi, …, Vincent P Rubinetti, Shaddai Amolitos, Kellen M Reason, John B Johnston, Janani Ravi
+      <div class="citation-authors" data-tooltip="Faisal S Alquaddoomi, Joseph T Burke, Lo Sosinski, David A Mayer, Evan P Brenner, Samuel Z Chen, Jacob D Krol, Ethan P Wolfe, Vincent P Rubinetti, Shaddai Amolitos, Kellen M Reason, John B Johnston, Janani Ravi" tabindex="0">
+        Faisal S Alquaddoomi, Joseph T Burke, Lo Sosinski, David A Mayer, Evan P Brenner, …, Vincent P Rubinetti, Shaddai Amolitos, Kellen M Reason, John B Johnston, Janani Ravi
 
       </div>
 

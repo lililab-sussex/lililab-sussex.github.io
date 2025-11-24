@@ -7,10 +7,16 @@ footer {
   padding: 40px;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
+  background: var(--secondary);
+  color: #ffffff;
+}
+
+footer.background:before {
+  display: none;
 }
 
 footer a {
-  color: var(--text) !important;
+  color: #ffffff !important;
 }
 
 footer a:hover {
