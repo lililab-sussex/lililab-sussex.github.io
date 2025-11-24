@@ -46,6 +46,16 @@ button {
   }
 }
 
+.button[data-style="secondary"] {
+  background: var(--secondary);
+  color: var(--background);
+
+  &:hover {
+    background: var(--text);
+    color: var(--background);
+  }
+}
+
 .button[data-flip] {
   flex-direction: row-reverse;
 }

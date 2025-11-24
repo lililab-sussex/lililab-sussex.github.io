@@ -1,264 +1,326 @@
-# DO NOT EDIT, GENERATED AUTOMATICALLY
-
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
-  authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
-  authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+# DO NOT EDIT, GENERATED AUTOMATICALLY FROM ORCID
+- id: doi:10.1007/978-3-032-06593-3_22
+  title: Bayesian MRI Reconstruction with Structured Uncertainty Distributions
+  authors: []
+  publisher: book-chapter
+  date: '2026'
+  link: https://doi.org/10.1007/978-3-032-06593-3_22
+  orcid: 0000-0001-5605-6626
+  source: orcid
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Medical Image Analysis
+  - Machine Learning
+- id: doi:10.1007/978-3-032-05573-6_12
+  title: Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed
+    Variational Autoencoder Mixture Model
+  authors: []
+  publisher: book-chapter
+  date: '2026'
+  link: https://doi.org/10.1007/978-3-032-05573-6_12
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1016/j.ecoinf.2023.102449
+  title: Towards interpretable learned representations for ecoacoustics using variational
+    auto-encoding
+  authors: []
+  publisher: Ecological Informatics
+  date: 2024-05
+  link: https://doi.org/10.1016/j.ecoinf.2023.102449
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.59275/j.melba.2024-d434
+  title: 'HyperPredict: Estimating Hyperparameter Effects for Instance-Specific Regularization
+    in Deformable Image Registration'
+  authors: []
+  publisher: Machine Learning for Biomedical Imaging
+  date: '2024-03-15'
+  link: https://doi.org/10.59275/j.melba.2024-d434
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Computer Vision
+- id: doi:10.1101/2023.09.07.556690
+  title: Towards interpretable learned representations for Ecoacoustics using variational
+    auto-encoding
+  authors: []
+  publisher: preprint
+  date: '2023-09-10'
+  link: https://doi.org/10.1101/2023.09.07.556690
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1088/1361-6560/ace49a
+  title: VAEs with structured image covariance applied to compressed sensing MRI
+  authors: []
+  publisher: Physics in Medicine & Biology
+  date: '2023-08-21'
+  link: https://doi.org/10.1088/1361-6560/ace49a
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Computer Vision
+- id: doi:10.1109/cvpr52688.2022.00046
+  title: Learning Structured Gaussians to Approximate Deep Ensembles
+  authors: []
+  publisher: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+  date: 2022-06
+  link: https://doi.org/10.1109/cvpr52688.2022.00046
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: 160324828
+  title: Cell Anomaly Localisation using Structured Uncertainty Prediction Networks
+  authors: []
+  publisher: Proceedings of The 5th International Conference on Medical Imaging with
+    Deep Learning
+  date: '2022'
+  link: https://proceedings.mlr.press/v172/vodenicharski22a.html
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1007/978-3-031-03789-4_22
+  title: 'MusIAC: An Extensible Generative Framework for Music Infilling Applications
+    with Multi-level Control'
+  authors: []
+  publisher: book-chapter
+  date: '2022'
+  link: https://doi.org/10.1007/978-3-031-03789-4_22
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1186/s13195-020-00679-2
+  title: Measuring cortical mean diffusivity to assess early microstructural cortical
+    change in presymptomatic familial Alzheimer's disease
+  authors: []
+  publisher: Alzheimer's Research and Therapy
+  date: '2020'
+  link: https://doi.org/10.1186/s13195-020-00679-2
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1145/3410530.3414353
+  title: Smartphone location identification and transport mode recognition using an
+    ensemble of generative adversarial networks
+  authors: []
+  publisher: UbiComp/ISWC 2020 Adjunct - Proceedings of the 2020 ACM International
+    Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the
+    2020 ACM International Symposium on Wearable Computers
+  date: '2020'
+  link: https://doi.org/10.1145/3410530.3414353
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Computer Vision
+- id: doi:10.1109/CVPR42600.2020.00540
+  title: 'The GaN that warped: Semantic attribute editing with unpaired data'
+  authors: []
+  publisher: Proceedings of the IEEE Computer Society Conference on Computer Vision
+    and Pattern Recognition
+  date: '2020'
+  link: https://doi.org/10.1109/CVPR42600.2020.00540
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1109/CVPR.2018.00574
+  title: Structured Uncertainty Prediction Networks
+  authors: []
+  publisher: Proceedings of the IEEE Computer Society Conference on Computer Vision
+    and Pattern Recognition
+  date: '2018'
+  link: https://doi.org/10.1109/CVPR.2018.00574
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1109/TMI.2017.2691259
+  title: Estimation of Large Motion in Lung CT by Integrating Regularized Keypoint
+    Correspondences into Dense Deformable Registration
+  authors: []
+  publisher: IEEE Transactions on Medical Imaging
+  date: '2017'
+  link: https://doi.org/10.1109/TMI.2017.2691259
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+- id: doi:10.1145/3150165.3150172
+  title: Laplacian pyramid of conditional variational autoencoders
+  authors: []
+  publisher: ACM International Conference Proceeding Series
+  date: '2017'
+  link: https://doi.org/10.1145/3150165.3150172
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1016/j.media.2015.09.005
+  title: Deformable image registration by combining uncertainty estimates from supervoxel
+    belief propagation
+  authors: []
+  publisher: Medical Image Analysis
+  date: '2016'
+  link: https://doi.org/10.1016/j.media.2015.09.005
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Computer Vision
+  - Machine Learning
+- id: doi:10.1038/srep22161
+  title: Multimodal Image Analysis in Alzheimer's Disease via Statistical Modelling
+    of Non-local Intensity Correlations
+  authors: []
+  publisher: Scientific Reports
+  date: '2016'
+  link: https://doi.org/10.1038/srep22161
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Computer Vision
+- id: doi:10.1007/s12021-016-9297-6
+  title: 'NiftyFit: a Software Package for Multi-parametric Model-Fitting of 4D Magnetic
+    Resonance Imaging Data'
+  authors: []
+  publisher: Neuroinformatics
+  date: '2016'
+  link: https://doi.org/10.1007/s12021-016-9297-6
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Machine Learning
+- id: doi:10.1016/j.media.2015.08.006
+  title: Probabilistic non-linear registration with spatially adaptive regularisation
+  authors: []
+  publisher: Medical Image Analysis
+  date: 2015-12
+  link: https://doi.org/10.1016/j.media.2015.08.006
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Machine Learning
+- id: doi:10.1186/s13195-015-0132-3
+  title: 'Diffusion imaging changes in grey matter in Alzheimer''s disease: A potential
+    marker of early neurodegeneration'
+  authors: []
+  publisher: Alzheimer's Research and Therapy
+  date: '2015'
+  link: https://doi.org/10.1186/s13195-015-0132-3
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+- id: doi:10.1007/978-3-319-24571-3_41
+  title: Estimating large lung motion in COPD patients by symmetric regularised correspondence
+    fields
+  authors: []
+  publisher: Lecture Notes in Computer Science (including subseries Lecture Notes
+    in Artificial Intelligence and Lecture Notes in Bioinformatics)
+  date: '2015'
+  link: https://doi.org/10.1007/978-3-319-24571-3_41
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1002/ana.24296
+  title: Longitudinal diffusion tensor imaging in rontotemporal dementia
+  authors: []
+  publisher: Annals of Neurology
+  date: '2015'
+  link: https://doi.org/10.1002/ana.24296
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+- id: doi:10.1016/j.nicl.2015.06.005
+  title: White matter tract signatures of impaired social cognition in frontotemporal
+    lobar degeneration
+  authors: []
+  publisher: 'NeuroImage: Clinical'
+  date: '2015'
+  link: https://doi.org/10.1016/j.nicl.2015.06.005
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Machine Learning
+- id: doi:10.1007/978-3-319-10443-0_8
+  title: Simulating neurodegeneration through longitudinal population analysis of
+    structural and diffusion weighted MRI data
+  authors: []
+  publisher: Lecture Notes in Computer Science (including subseries Lecture Notes
+    in Artificial Intelligence and Lecture Notes in Bioinformatics)
+  date: '2014'
+  link: https://doi.org/10.1007/978-3-319-10443-0_8
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+- id: doi:10.1007/978-3-642-40763-5_2
+  title: A Bayesian approach for spatially adaptive regularisation in non-rigid registration
+  authors: []
+  publisher: Lecture Notes in Computer Science (including subseries Lecture Notes
+    in Artificial Intelligence and Lecture Notes in Bioinformatics)
+  date: '2013'
+  link: https://doi.org/10.1007/978-3-642-40763-5_2
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Machine Learning
+- id: doi:10.1109/TMI.2012.2236651
+  title: Ensemble learning incorporating uncertain registration
+  authors: []
+  publisher: IEEE Transactions on Medical Imaging
+  date: '2013'
+  link: https://doi.org/10.1109/TMI.2012.2236651
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Machine Learning
+- id: doi:10.1109/ISBI.2012.6235641
+  title: A probabilistic non-rigid registration framework using local noise estimates
+  authors: []
+  publisher: Proceedings - International Symposium on Biomedical Imaging
+  date: '2012'
+  link: https://doi.org/10.1109/ISBI.2012.6235641
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Machine Learning
+- id: doi:10.1016/j.neuroimage.2011.09.002
+  title: Probabilistic inference of regularisation in non-rigid registration
+  authors: []
+  publisher: NeuroImage
+  date: '2012'
+  link: https://doi.org/10.1016/j.neuroimage.2011.09.002
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
+  - Machine Learning
+- id: doi:10.1007/978-3-642-23629-7_79
+  title: Longitudinal brain MRI analysis with uncertain registration
+  authors: []
+  publisher: Lecture Notes in Computer Science (including subseries Lecture Notes
+    in Artificial Intelligence and Lecture Notes in Bioinformatics)
+  date: '2011'
+  link: https://doi.org/10.1007/978-3-642-23629-7_79
+  orcid: 0000-0001-5605-6626
+  source: orcid
+  tags:
+  - Medical Image Analysis
