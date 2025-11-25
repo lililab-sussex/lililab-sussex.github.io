@@ -2,7 +2,7 @@
 title: Continual Learning
 nav:
   order: 1.1
-  tooltip: Reading group, book club, teaching
+  tooltip: Reading groups, book clubs, teaching
   parent: "/projects/"
 ---
 

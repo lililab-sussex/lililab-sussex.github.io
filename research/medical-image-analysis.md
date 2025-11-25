@@ -2,8 +2,8 @@
 title: Medical Image Analysis
 nav:
   order: 2.1
-  tooltip: Imaging and MRI
   parent: "/research/"
+permalink: /research/medical-image-analysis/
 ---
 
 # Medical Image Analysis

@@ -3,7 +3,7 @@ name: Paula Seidler
 image: images/team-photos/Paula.jpg
 role: phd
 # affiliation: University of Sussex
-description: Interpretable uncertainty-awareperceptual similarity metrics and loss functions that align with human visual judgement.
+description: Interpretable uncertainty-aware perceptual similarity metrics, perceptual loss functions
 aliases:
   - Paula Seidler
   - Lotte Paula Sophia Leonie Seidler

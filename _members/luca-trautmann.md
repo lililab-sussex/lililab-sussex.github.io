@@ -8,7 +8,7 @@ aliases:
   - Luca Trautmann
 links:
   home-page: https://profiles.sussex.ac.uk/p565199-luca-trautmann
-  orcid: 0000-0001-5605-6626
+  orcid: 0009-0001-3517-5471
   linkedin: luca-trautmann
 ---
 

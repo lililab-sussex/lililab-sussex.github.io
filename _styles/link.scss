@@ -14,3 +14,18 @@ a:hover {
 a:not([href]) {
   color: var(--text);
 }
+
+[data-dark="false"] {
+  a {
+    color: var(--secondary);
+  }
+
+  .portrait {
+    color: var(--secondary);
+  }
+
+  a:hover,
+  .portrait:hover {
+    color: #000000;
+  }
+}

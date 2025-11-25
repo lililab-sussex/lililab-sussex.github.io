@@ -2,30 +2,15 @@
 title: Research Themes
 nav:
   order: 2
-  tooltip: Published works
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research Themes
 
-Our work spans several areas. Dive into each theme:
+The LILI Lab develops interpretable machine learning and statistical methods for inverse problems, where key information cannot be measured directly. Our work focuses on spatiotemporal data in medical imaging, disease progression modelling, computer vision, and ecological monitoring.
 
-- [Medical Image Analysis](./medical-image-analysis)
-- [Computer Vision](./computer-vision)
-- [Ecological Monitoring](./ecological-monitoring)
-- [Machine Learning](./machine-learning)
+Explore our four main research themes:
 
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
-
-## All
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+- [Medical Image Analysis](./medical-image-analysis): Work on MRI reconstruction, image registration, and related inverse problems.
+- [Computer Vision](./computer-vision): Projects spanning visual recognition, reconstruction, and interpretable models for vision tasks.
+- [Ecological Monitoring](./ecological-monitoring): Interpretable learning for ecological data, from species monitoring to environmental sensing.
+- [Machine Learning](./machine-learning): Core methodological work on probabilistic modeling, interpretability, and efficient training for inverse problems.

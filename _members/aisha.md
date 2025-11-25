@@ -1,15 +1,15 @@
 ---
-name: Aisha
+name: Aisha Lawal Shuaibu
 image: images/team-photos/Aisha.jpg
 role: phd
 # affiliation: University of Sussex
-description: Probabilistic machine learning for inverse problems with spatiotemporal data.
+description: Medical image registration
 aliases:
-  - Aisha
+  - Aisha Lawal Shuaibu
+  - Aisha L. Shuaibu
 links:
-  home-page: https://profiles.sussex.ac.uk/p551890-paula-seidler
-  orcid: 0000-0001-5605-6626
-  linkedin: paula-seidler
+  home-page: https://profiles.sussex.ac.uk/p578428-aisha-lawal-shuaibu
+  orcid: 0000-0002-6061-2231
+  linkedin: aisha-lawal-shuaibu-b87141124
 ---
-
-I’m a PhD student interested in explainable and interpretable machine learning, with a focus on computer vision. My work explores probabilistic methods for evaluating and understanding images, developing perceptual similarity metrics and loss functions that align with human judgment and capture uncertainty.
+My research interest is in Medical image registration and using machine learning to develop algorithms that improve the process of image registration. I'm open to collaborating with people on problems that align with my interest.
