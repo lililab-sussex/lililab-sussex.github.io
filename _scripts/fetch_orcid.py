@@ -49,6 +49,11 @@ THEME_KEYWORDS = {
         "habitat",
         "conservation",
         "monitoring",
+        "acoustic",
+        "ecoacoustic",
+        "ecoacoustics",
+        "bioacoustic",
+        "bioacoustics",
     ],
     "Machine Learning": [
         "learning",

@@ -12,6 +12,6 @@ Interpretable learning for ecological data, from species monitoring to environme
 
 {% include section.html %}
 
-## Related publications from LiLi Lab Members
+## Related publications
 
 {% include list.html data="citations" component="citation" filter="tags contains 'Ecological Monitoring'" style="rich" %}
