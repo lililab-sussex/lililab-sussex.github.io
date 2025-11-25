@@ -2,7 +2,7 @@
 title: Opportunities
 nav:
   order: 1.4
-  tooltip: Roles and collaborations
+  tooltip: Working/collaborating with us!
   parent: "/projects/"
 ---
 

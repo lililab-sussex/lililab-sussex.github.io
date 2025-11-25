@@ -2,7 +2,6 @@
 title: Research Themes
 nav:
   order: 2
-  tooltip: Published works
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research Themes
@@ -13,12 +12,6 @@ Our work spans several areas. Dive into each theme:
 - [Computer Vision](./computer-vision)
 - [Ecological Monitoring](./ecological-monitoring)
 - [Machine Learning](./machine-learning)
-
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
 {% include section.html %}
 
