@@ -2,7 +2,7 @@
 title: Continual Learning
 nav:
   order: 1.1
-  tooltip: Reading group, book club, teaching
+  tooltip: Reading groups, book clubs, teaching
   parent: "/projects/"
 ---
 
@@ -14,6 +14,6 @@ We run regular meetings for learning and sharing:
 
 - Reading group
 - Book club
-- Highlight our academic teaching — show we know our stuff
+- Highlight our academic teaching...
 
 We’ll keep this page updated with upcoming sessions and materials so newcomers can drop in quickly.

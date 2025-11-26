@@ -54,7 +54,7 @@
       %}
       <div class="nav-item {% if children.size > 0 %}has-children{% endif %}">
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
+          href="{{ page.url | relative_url | uri_escape }}"
           data-tooltip="{{ page.nav.tooltip | xml_escape }}"
         >
           {{ page.title }}
@@ -63,7 +63,7 @@
           <div class="dropdown">
             {% for child in children %}
               <a
-                href="{{ child.dir | relative_url | uri_escape }}"
+                href="{{ child.url | relative_url | uri_escape }}"
                 data-tooltip="{{ child.nav.tooltip | xml_escape }}"
               >
                 {{ child.title }}

@@ -2,7 +2,6 @@
 title: What We Do
 nav:
   order: 1
-  tooltip: Opportunities, continual learning, and more
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}What we do
