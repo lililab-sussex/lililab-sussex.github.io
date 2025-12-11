@@ -4,6 +4,9 @@
 printf "\n\nContents:\n\n"
 ls
 
+# fetch latest citations from member ORCIDs
+python3 _scripts/fetch_orcid.py
+
 # run cite process
 python3 _cite/cite.py
 
@@ -21,5 +24,5 @@ watchmedo shell-command \
     --debug-force-polling \
     --recursive \
     --wait \
-    --command="python3 _cite/cite.py" \
-    --patterns="_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*" \
+    --command="python3 _scripts/fetch_orcid.py && python3 _cite/cite.py" \
+    --patterns="_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*;_members/*.md;_scripts/fetch_orcid.py" \

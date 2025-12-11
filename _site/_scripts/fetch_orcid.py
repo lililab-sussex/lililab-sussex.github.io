@@ -17,6 +17,8 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 MEMBERS_DIR = ROOT / "_members"
 OUTPUT = ROOT / "_data" / "citations.yaml"
+MAX_WORKS_PER_ORCID = 20
+MIN_YEAR = 2018
 
 # Theme tagging keywords for the four main areas.
 THEME_KEYWORDS = {
@@ -49,6 +51,11 @@ THEME_KEYWORDS = {
         "habitat",
         "conservation",
         "monitoring",
+        "acoustic",
+        "ecoacoustic",
+        "ecoacoustics",
+        "bioacoustic",
+        "bioacoustics",
     ],
     "Machine Learning": [
         "learning",
@@ -140,6 +147,15 @@ def tag_themes(title: str) -> list[str]:
     return tags
 
 
+def parse_year(date_str: str | None) -> int | None:
+    if not date_str or date_str == "[no date info]":
+        return None
+    try:
+        return int(str(date_str).split("-")[0])
+    except Exception:
+        return None
+
+
 def main() -> int:
     members = load_members()
     unique_orcids = sorted({m["orcid"] for m in members if m.get("orcid")})
@@ -151,8 +167,21 @@ def main() -> int:
     for orcid in unique_orcids:
         try:
             works = fetch_orcid_works(orcid)
+            # newest first and cap per ORCID; drop too-old works
+            filtered = []
             for w in works:
+                year = parse_year(w.get("date"))
+                if year is None:
+                    continue
+                if year < MIN_YEAR:
+                    continue
                 w["tags"] = tag_themes(w["title"])
+                # normalize date to year if month/day missing
+                w["date"] = str(year) if len(str(w.get("date"))) <= 4 else w["date"]
+                filtered.append(w)
+            works = sorted(filtered, key=lambda w: w.get("date", ""), reverse=True)[
+                :MAX_WORKS_PER_ORCID
+            ]
             all_works.extend(works)
         except urllib.error.HTTPError as e:
             print(f"Failed to fetch {orcid}: {e}", file=sys.stderr)
@@ -170,6 +199,23 @@ def main() -> int:
             continue
         seen.add(w["id"])
         deduped.append(w)
+
+    # manual additions (outside ORCID), ensure date is recent so it isn't filtered out
+    manual_entries = [
+        {
+            "id": "arxiv:2512.03701",
+            "title": "Structured Uncertainty Similarity Score (SUSS): Learning a Probabilistic, Interpretable, Perceptual Metric Between Images",
+            "authors": [],
+            "publisher": "arXiv",
+            "date": "2025-12",
+            "link": "https://arxiv.org/abs/2512.03701",
+            "orcid": None,
+            "source": "manual",
+            "tags": ["Machine Learning", "Computer Vision"],
+        }
+    ]
+
+    deduped.extend(manual_entries)
 
     deduped.sort(key=lambda w: w.get("date", ""), reverse=True)
 

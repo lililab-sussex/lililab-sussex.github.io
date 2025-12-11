@@ -15,5 +15,9 @@ Core methodological work on probabilistic modeling, interpretability, and effici
 
 ## Related publications from LiLi Lab Members
 
-{% include list.html data="citations" component="citation" filter="tags contains 'Machine Learning'" style="rich" %}
-
+{%
+  include button.html
+  text="View Machine Learning publications"
+  link="publication/?search=Machine%20Learning"
+  style="secondary"
+%}
