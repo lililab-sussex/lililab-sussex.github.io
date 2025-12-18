@@ -14,4 +14,4 @@ Interpretable learning for ecological data, from species monitoring to environme
 
 ## Related publications
 
-{% include list.html data="citations" component="citation" filter="tags contains 'Ecological Monitoring'" style="rich" %}
+{% include button.html text="View Ecological Monitoring publications" link="publication/?search=Ecological%20Monitoring" style="secondary" %}

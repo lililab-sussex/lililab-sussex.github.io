@@ -13,7 +13,7 @@ Recent work from the lab. Use the search to filter by title, author, or year.
 
 ## Highlight
 
-{% include citation.html lookup="Towards interpretable learned representations for ecoacoustics using variational auto-encoding" style="rich" %}
+{% include citation.html lookup="Modelling temporal shift-invariance in self-supervised generative models improves accuracy and interpretability of species detection in soundscape recordings" style="rich" %}
 
 {% include section.html %}
 

@@ -17,7 +17,7 @@
   padding: 5px 10px;
   border-radius: 999px;
   background: var(--secondary);
-  color: var(--primary);
+  color: var(--primary) !important; /* keep readable: purple background + green text */
   text-decoration: none;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -27,10 +27,10 @@
 
 .tag:hover {
   background: var(--primary);
-  color: var(--background);
+  color: var(--secondary);
 }
 
 .tag[data-active] {
   background: var(--primary);
-  color: var(--background);
+  color: var(--secondary);
 }

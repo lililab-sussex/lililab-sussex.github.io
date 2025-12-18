@@ -1,23 +1,23 @@
-{% assign tags = include.tags
-  | object_items
-  | join: ","
+{% assign tags_raw = include.tags | default: "" %}
+{% assign tags_joined = tags_raw | join: "," %}
+{% assign tags_clean = tags_joined
   | downcase
-  | split: ","
-  | array_filter
-  | join: ","
+  | replace: ", ", ","
+  | replace: " ,", ","
   | regex_replace: "\s+", "-"
   | split: ","
+  | array_filter
   | uniq
 %}
 {% assign link = include.link | default: page.dir %}
-{% if tags.size > 0 or include.repo %}
+{% if tags_clean.size > 0 or include.repo %}
   <div
     class="tags"
     {% if include.repo %}
       data-repo="{{ include.repo | xml_escape }}"
     {% endif %}
   >
-    {% for tag in tags %}
+    {% for tag in tags_clean %}
       <a
         href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"

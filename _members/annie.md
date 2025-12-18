@@ -1,5 +1,5 @@
 ---
-name: Annie
+name: Annie Hartanto
 image: images/team-photos/Annie.jpeg
 role: phd
 # affiliation: University of Sussex

@@ -1,6 +1,6 @@
 ---
 name:  Kieran Gibb
-image: images/team-photos/peter.jpeg
+image: images/team-photos/kieran.png
 role: phd
 # affiliation: University of Sussex
 description: generative AI for interpreting ecoacoustic inference

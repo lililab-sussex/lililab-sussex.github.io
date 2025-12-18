@@ -16,16 +16,20 @@ We aim to build models that are:
 ## What We Do
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="projects/opportunities"
+  image="images/photos/poster_luca_ivor.jpeg"
+  link="/projects/opportunities"
   title="Opportunities"
   flip=true
   style="bare"
-  text="Ways to work with us or collaborate."
+  text="Ways to work with us or collaborate:
+  - [Working in our lab](/projects/opportunities/working-in-our-lab): expectations, skills, and resources for joining.
+- [Collaborating with us](/projects/opportunities/collaborating-with-us): how we scope projects with partners and keep work reproducible."
 %}
+
+
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/reading_g2.png"
   link="projects/continual-learning"
   title="Continual Learning"
   text="Reading groups, book clubs, and teaching highlights."
@@ -33,7 +37,7 @@ We aim to build models that are:
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/san_github.png"
   link="projects/software"
   title="Software"
   flip=true
@@ -43,7 +47,7 @@ We aim to build models that are:
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/soap_box.jpeg"
   link="projects/outreach"
   title="Outreach"
   text="Engagement like science fairs, and international teaching projects."
@@ -57,36 +61,37 @@ We aim to build models that are:
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/image_reg.jpg"
   link="research/medical-image-analysis"
   title="Medical Image Analysis"
-  text="Interpretable methods for MRI reconstruction, registration, and other imaging inverse problems."
+  text="Work on MRI reconstruction, image registration, and related inverse problems."
 %}
-
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/ze1r_pair.png"
   link="research/computer-vision"
   title="Computer Vision"
   flip=true
   style="bare"
-  text="Models that balance performance and interpretability across recognition, reconstruction, and visual understanding."
+  text="Projects spanning visual recognition, reconstruction, and interpretable models for vision tasks."
 %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/dawn-chorus-road-uk2.png"
   link="research/ecological-monitoring"
   title="Ecological Monitoring"
-  text="Learning from species and environmental data with transparent predictions for field collaborators."
+  text="Interpretable learning for ecological data, from species monitoring to environmental sensing."
 %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/san.jpg"
   link="research/machine-learning"
   title="Machine Learning Methods"
   flip=true
   style="bare"
-  text="Core probabilistic modeling, uncertainty quantification, and efficient training tailored to inverse problems."
+  text="Core methodological work on probabilistic modeling, interpretability, and efficient training for inverse problems."
 %}
+
+{% include section.html %}

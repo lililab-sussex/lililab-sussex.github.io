@@ -120,6 +120,7 @@ def fetch_orcid_works(orcid: str) -> list[dict]:
         works.append(
             {
                 "id": f"doi:{doi}" if doi else summary.get("put-code"),
+                "put_code": summary.get("put-code"),
                 "title": title,
                 "authors": [],  # ORCID summary doesn’t list full authors.
                 "publisher": (summary.get("journal-title") or {}).get("value")
@@ -134,15 +135,49 @@ def fetch_orcid_works(orcid: str) -> list[dict]:
     return works
 
 
-def tag_themes(title: str) -> list[str]:
+def tag_themes(title: str, keywords: list[str] | None = None, publisher: str = "") -> list[str]:
+    """
+    Assign themes based on title plus any keyword strings we can extract
+    from ORCID metadata. Falls back to Machine Learning if nothing matches.
+    """
     tags = []
-    low = title.lower()
-    for theme, keywords in THEME_KEYWORDS.items():
-        if any(re.search(rf"\b{kw}\b", low) for kw in keywords):
+    blobs = [title or "", publisher or ""] + (keywords or [])
+    low = " ".join(blobs).lower()
+    for theme, kw_list in THEME_KEYWORDS.items():
+        if any(re.search(rf"\b{re.escape(kw)}\b", low) for kw in kw_list):
             tags.append(theme)
     if not tags:
         tags.append("Machine Learning")
     return tags
+
+
+def fetch_work_keywords(orcid: str, put_code: str | None) -> list[str]:
+    """
+    Fetch keywords/subjects for a specific ORCID work (best effort).
+    """
+    if not put_code:
+        return []
+    url = f"https://pub.orcid.org/v3.0/{orcid}/work/{put_code}"
+    req = urllib.request.Request(url, headers={"Accept": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:  # nosec
+            data = json.load(resp)
+    except Exception:
+        return []
+
+    keywords = []
+    kw_block = data.get("keywords", {}).get("keyword", []) or []
+    for kw in kw_block:
+        val = kw.get("content") or kw.get("value")
+        if val:
+            keywords.append(val)
+
+    # Some records use "subject" or "title" inside a "citation" block.
+    subject = data.get("title", {}).get("subtitle", {}).get("value")
+    if subject:
+        keywords.append(subject)
+
+    return keywords
 
 
 def main() -> int:
@@ -157,7 +192,10 @@ def main() -> int:
         try:
             works = fetch_orcid_works(orcid)
             for w in works:
-                w["tags"] = tag_themes(w["title"])
+                kw = fetch_work_keywords(orcid, w.get("put_code"))
+                if kw:
+                    w["keywords"] = kw
+                w["tags"] = tag_themes(w.get("title", ""), kw, w.get("publisher", ""))
             all_works.extend(works)
         except urllib.error.HTTPError as e:
             print(f"Failed to fetch {orcid}: {e}", file=sys.stderr)
@@ -174,6 +212,7 @@ def main() -> int:
         if w["id"] in seen:
             continue
         seen.add(w["id"])
+        w.pop("put_code", None)
         deduped.append(w)
 
     deduped.sort(key=lambda w: w.get("date", ""), reverse=True)
