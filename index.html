@@ -373,6 +373,8 @@
 
   <script src="/_scripts/table-wrap.js"></script>
 
+  <script src="/_scripts/tag_citations.py"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -416,25 +418,25 @@
     
       
       <div class="nav-item has-children">
-        <a href="/projects/" data-tooltip="Opportunities, continual learning, and more">
+        <a href="/projects/" data-tooltip="">
           What We Do
         </a>
         
           <div class="dropdown">
             
-              <a href="/projects/" data-tooltip="Reading group, book club, teaching">
+              <a href="/projects/continual-learning.html" data-tooltip="Reading groups, book clubs, teaching">
                 Continual Learning
               </a>
             
-              <a href="/projects/" data-tooltip="Research tooling and code">
+              <a href="/projects/software.html" data-tooltip="Research tooling and code">
                 Software
               </a>
             
-              <a href="/projects/" data-tooltip="Community engagement">
+              <a href="/projects/outreach.html" data-tooltip="Community engagement">
                 Outreach
               </a>
             
-              <a href="/projects/opportunities/" data-tooltip="Roles and collaborations">
+              <a href="/projects/opportunities/" data-tooltip="Interested in working in our lab/collaborating with us?">
                 Opportunities
               </a>
             
@@ -444,25 +446,25 @@
     
       
       <div class="nav-item has-children">
-        <a href="/research/" data-tooltip="Published works">
+        <a href="/research/" data-tooltip="">
           Research Themes
         </a>
         
           <div class="dropdown">
             
-              <a href="/research/" data-tooltip="Imaging and MRI">
+              <a href="/research/medical-image-analysis/" data-tooltip="">
                 Medical Image Analysis
               </a>
             
-              <a href="/research/" data-tooltip="Vision applications">
+              <a href="/research/computer-vision/" data-tooltip="">
                 Computer Vision
               </a>
             
-              <a href="/research/" data-tooltip="Ecology and monitoring">
+              <a href="/research/ecological-monitoring/" data-tooltip="">
                 Ecological Monitoring
               </a>
             
-              <a href="/research/" data-tooltip="Methods and theory">
+              <a href="/research/machine-learning/" data-tooltip="">
                 Machine Learning
               </a>
             
@@ -541,20 +543,26 @@ We create interpretable ML models for ”inverse problems”, where the informat
 <h2 id="what-we-do">What We Do</h2>
 <div class="feature" data-flip="">
   <a href="/projects/opportunities" class="feature-image" aria-label="Opportunities">
-    <img src="/images/photo.jpg" loading="lazy" alt="Opportunities" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/photos/poster_luca_ivor.jpeg" loading="lazy" alt="Opportunities" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Opportunities</p>
     
-    <p>Ways to work with us or collaborate.</p>
+    <p>Ways to work with us or collaborate:</p>
+<ul>
+  <li>
+<a href="/projects/opportunities/working-in-our-lab">Working in our lab</a>: expectations, skills, and resources for joining.</li>
+  <li>
+<a href="/projects/opportunities/collaborating-with-us">Collaborating with us</a>: how we scope projects with partners and keep work reproducible.</li>
+</ul>
 
   </div>
 </div>
 
 <div class="feature">
   <a href="/projects/continual-learning" class="feature-image" aria-label="Continual Learning">
-    <img src="/images/photo.jpg" loading="lazy" alt="Continual Learning" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/photos/reading_g2.png" loading="lazy" alt="Continual Learning" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -567,7 +575,7 @@ We create interpretable ML models for ”inverse problems”, where the informat
 
 <div class="feature" data-flip="">
   <a href="/projects/software" class="feature-image" aria-label="Software">
-    <img src="/images/photo.jpg" loading="lazy" alt="Software" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/photos/san_github.png" loading="lazy" alt="Software" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -580,7 +588,7 @@ We create interpretable ML models for ”inverse problems”, where the informat
 
 <div class="feature">
   <a href="/projects/outreach" class="feature-image" aria-label="Outreach">
-    <img src="/images/photo.jpg" loading="lazy" alt="Outreach" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/photos/soap_box.jpeg" loading="lazy" alt="Outreach" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -607,55 +615,67 @@ We create interpretable ML models for ”inverse problems”, where the informat
 
 <div class="feature">
   <a href="/research/medical-image-analysis" class="feature-image" aria-label="Medical Image Analysis">
-    <img src="/images/photo.jpg" loading="lazy" alt="Medical Image Analysis" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/photos/image_reg.jpg" loading="lazy" alt="Medical Image Analysis" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Medical Image Analysis</p>
     
-    <p>Interpretable methods for MRI reconstruction, registration, and other imaging inverse problems.</p>
+    <p>Work on MRI reconstruction, image registration, and related inverse problems.</p>
 
   </div>
 </div>
 
 <div class="feature" data-flip="">
   <a href="/research/computer-vision" class="feature-image" aria-label="Computer Vision">
-    <img src="/images/photo.jpg" loading="lazy" alt="Computer Vision" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/photos/ze1r_pair.png" loading="lazy" alt="Computer Vision" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Computer Vision</p>
     
-    <p>Models that balance performance and interpretability across recognition, reconstruction, and visual understanding.</p>
+    <p>Projects spanning visual recognition, reconstruction, and interpretable models for vision tasks.</p>
 
   </div>
 </div>
 
 <div class="feature">
   <a href="/research/ecological-monitoring" class="feature-image" aria-label="Ecological Monitoring">
-    <img src="/images/photo.jpg" loading="lazy" alt="Ecological Monitoring" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/photos/dawn-chorus-road-uk2.png" loading="lazy" alt="Ecological Monitoring" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Ecological Monitoring</p>
     
-    <p>Learning from species and environmental data with transparent predictions for field collaborators.</p>
+    <p>Interpretable learning for ecological data, from species monitoring to environmental sensing.</p>
 
   </div>
 </div>
 
 <div class="feature" data-flip="">
   <a href="/research/machine-learning" class="feature-image" aria-label="Machine Learning Methods">
-    <img src="/images/photo.jpg" loading="lazy" alt="Machine Learning Methods" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/photos/san.jpg" loading="lazy" alt="Machine Learning Methods" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Machine Learning Methods</p>
     
-    <p>Core probabilistic modeling, uncertainty quantification, and efficient training tailored to inverse problems.</p>
+    <p>Core methodological work on probabilistic modeling, interpretability, and efficient training for inverse problems.</p>
 
   </div>
 </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
   </section>
 
 
