@@ -8,7 +8,7 @@ nav:
 
 # Collaborating with Us
 
-Some information more targeted at potential collaborators.
+Some information more targeted at potential collaborators:
 
 ## How we collaborate
 

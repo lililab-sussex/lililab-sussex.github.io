@@ -15,4 +15,4 @@ Projects spanning visual recognition, reconstruction, and interpretable models f
 
 ## Related publications from LiLi Lab Members
 
-{% include list.html data="citations" component="citation" filter="tags contains 'Computer Vision'" style="rich" %}
+{% include button.html text="View Computer Vision publications" link="publication/?search=Computer%20Vision" style="secondary" %}

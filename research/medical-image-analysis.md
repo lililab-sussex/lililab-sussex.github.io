@@ -14,4 +14,4 @@ Work on MRI reconstruction, image registration, and related inverse problems. Mo
 
 ## Related publications from LiLi Lab Members
 
-{% include list.html data="citations" component="citation" filter="tags contains 'Medical Imaging'" style="rich" %}
+{% include button.html text="View Medical Image Analysis publications" link="publication/?search=Medical%20Image%20Analysis" style="secondary" %}

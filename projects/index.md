@@ -11,7 +11,7 @@ Our work spans method development, tooling, and community efforts. Explore the a
 {% include section.html %}
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/poster_luca_ivor.jpeg"
   link="/projects/opportunities"
   title="Opportunities"
   flip=true
@@ -25,7 +25,7 @@ Our work spans method development, tooling, and community efforts. Explore the a
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/reading_g2.png"
   link="/projects/continual-learning"
   title="Continual Learning"
   text="Reading group, book club, and teaching highlights."
@@ -33,7 +33,7 @@ Our work spans method development, tooling, and community efforts. Explore the a
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/photos/san_github.png"
   link="/projects/software"
   title="Software"
   flip=true
