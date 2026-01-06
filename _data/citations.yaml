@@ -455,6 +455,20 @@
   orcid: 0000-0003-1468-547X
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1007/978-3-032-09513-8_49
+  title: "Evaluating Structural Uncertainty in\_Accelerated MRI: Are Voxelwise Measures\
+    \ Useful Surrogates?"
+  authors:
+  - Luca L. C. Trautmann
+  - Peter A. Wijeratne
+  - Itamar Ronen
+  - Ivor J. A. Simpson
+  publisher: Lecture Notes in Computer Science
+  date: '2026-01-01'
+  link: https://doi.org/hbhrr7
+  orcid: 0009-0001-3517-5471
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1093/braincomms/fcaf066
   title: Distinct spatiotemporal atrophy patterns in corticobasal syndrome are associated
     with different underlying pathologies
@@ -1108989,13 +1109003,6 @@
 - title: 'Evaluating structural uncertainty in accelerated MRI: are voxelwise measures
     useful surrogates?'
   date: '2025-10-07'
-  orcid: 0009-0001-3517-5471
-  plugin: orcid.py
-  file: orcid.yaml
-- title: 'Evaluating structural uncertainty in accelerated MRI: are voxelwise measures
-    useful surrogates?'
-  publisher: MLMI 2025 conference proceedings
-  date: '2025-11-06'
   orcid: 0009-0001-3517-5471
   plugin: orcid.py
   file: orcid.yaml
