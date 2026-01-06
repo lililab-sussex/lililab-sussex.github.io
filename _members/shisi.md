@@ -11,4 +11,4 @@ links:
   orcid: 
   linkedin: shisi-y-53887438a
 ---
-A slightly longer version: I am interested in efficient sampling methods for high-dimensional latent variable models and explore their applications in posterior inference, model learning, and deep learning optimisation.
+I am interested in efficient sampling methods for high-dimensional latent variable models and explore their applications in posterior inference, model learning, and deep learning optimisation.
