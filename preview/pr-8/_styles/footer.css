@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  line-height: var(--spacing);
+  box-shadow: var(--shadow);
+  background: var(--secondary);
+  color: #ffffff;
+}
+
+footer.background:before {
+  display: none;
+}
+
+footer a {
+  color: #ffffff !important;
+}
+
+footer a:hover {
+  color: var(--primary) !important;
+}
+
+footer .icon {
+  font-size: var(--xl);
+}
+
+/*# sourceMappingURL=footer.css.map */
