@@ -66,6 +66,17 @@ We aim to build models that are:
   title="Medical Image Analysis"
   text="Work on MRI reconstruction, image registration, and related inverse problems."
 %}
+
+{%
+  include feature.html
+  image="images/photos/vebm.png"
+  link="research/progression"
+  title="Progression modelling"
+  flip=true
+  style="bare"
+  text="Probabilistic latent variable modelling of neurodevelopment and degeneration."
+%}
+
 {%
   include feature.html
   image="images/photos/ze1r_pair.png"
