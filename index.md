@@ -71,7 +71,7 @@ We aim to build models that are:
   include feature.html
   image="images/photos/vebm.png"
   link="research/progression"
-  title="Progression modelling"
+  title="Progression Modelling"
   flip=true
   style="bare"
   text="Probabilistic latent variable modelling of neurodevelopment and degeneration."
@@ -82,7 +82,6 @@ We aim to build models that are:
   image="images/photos/ze1r_pair.png"
   link="research/computer-vision"
   title="Computer Vision"
-  flip=true
   style="bare"
   text="Projects spanning visual recognition, reconstruction, and interpretable models for vision tasks."
 %}
@@ -92,6 +91,7 @@ We aim to build models that are:
   image="images/photos/dawn-chorus-road-uk2.png"
   link="research/ecological-monitoring"
   title="Ecological Monitoring"
+  flip=true	    
   text="Interpretable learning for ecological data, from species monitoring to environmental sensing."
 %}
 
@@ -100,7 +100,6 @@ We aim to build models that are:
   image="images/photos/san.jpg"
   link="research/machine-learning"
   title="Machine Learning Methods"
-  flip=true
   style="bare"
   text="Core methodological work on probabilistic modeling, interpretability, and efficient training for inverse problems."
 %}

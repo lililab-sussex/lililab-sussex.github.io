@@ -10,6 +10,7 @@ The LILI Lab develops interpretable machine learning and statistical methods for
 
 Explore our four main research themes:
 
+
 {%
   include feature.html
   image="images/photos/image_reg.jpg"
@@ -17,12 +18,22 @@ Explore our four main research themes:
   title="Medical Image Analysis"
   text="Work on MRI reconstruction, image registration, and related inverse problems."
 %}
+
+{%
+  include feature.html
+  image="images/photos/vebm.png"
+  link="research/progression"
+  title="Progression Modelling"
+  flip=true
+  style="bare"
+  text="Probabilistic latent variable modelling of neurodevelopment and degeneration."
+%}
+
 {%
   include feature.html
   image="images/photos/ze1r_pair.png"
   link="research/computer-vision"
   title="Computer Vision"
-  flip=true
   style="bare"
   text="Projects spanning visual recognition, reconstruction, and interpretable models for vision tasks."
 %}
@@ -32,6 +43,7 @@ Explore our four main research themes:
   image="images/photos/dawn-chorus-road-uk2.png"
   link="research/ecological-monitoring"
   title="Ecological Monitoring"
+  flip=true	    
   text="Interpretable learning for ecological data, from species monitoring to environmental sensing."
 %}
 
@@ -40,7 +52,6 @@ Explore our four main research themes:
   image="images/photos/san.jpg"
   link="research/machine-learning"
   title="Machine Learning Methods"
-  flip=true
   style="bare"
   text="Core methodological work on probabilistic modeling, interpretability, and efficient training for inverse problems."
 %}
