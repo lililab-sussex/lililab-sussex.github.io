@@ -1109000,9 +1109000,22 @@
   orcid: 0000-0003-1468-547X
   plugin: orcid.py
   file: orcid.yaml
-- title: 'Evaluating structural uncertainty in accelerated MRI: are voxelwise measures
+- id: doi:10.48550/arxiv.2503.10527
+  title: 'Evaluating structural uncertainty in accelerated MRI: are voxelwise measures
     useful surrogates?'
-  date: '2025-10-07'
+  authors:
+  - Luca L. C. Trautmann
+  - Peter A. Wijeratne
+  - Itamar Ronen
+  - Ivor J. A. Simpson
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbnzqv
+  orcid: 0009-0001-3517-5471
+  plugin: orcid.py
+  file: orcid.yaml
+- title: How Should We Evaluate Uncertainty in Accelerated MRI Reconstruction?
+  date: '2026-02-17'
   orcid: 0009-0001-3517-5471
   plugin: orcid.py
   file: orcid.yaml
