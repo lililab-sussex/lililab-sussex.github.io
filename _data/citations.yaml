@@ -60,7 +60,7 @@
   - A. Eldridge
   - C. J. Sandom
   - I. J. A. Simpson
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-09-10'
   link: https://doi.org/gspwtc
   orcid: 0000-0003-1468-547X
@@ -455,6 +455,51 @@
   orcid: 0000-0003-1468-547X
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.64898/2026.06.07.730710
+  title: Revealing trajectories of multi-modal voxel-level changes in neurodegenerative
+    diseases using latent event mapping
+  authors:
+  - Sanduni Pinnawala
+  - Annabelle Hartanto
+  - Misha Jairamani
+  - Ivor J.A. Simpson
+  - Peter A. Wijeratne
+  publisher: openRxiv
+  date: '2026-06-11'
+  link: https://doi.org/hb7pw4
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.12688/wellcomeopenres.19638.2
+  title: 'Characterizing developing executive functions in the first 1000 days in
+    South Africa and Malawi: The Khula Study'
+  authors:
+  - Michal R Zieff
+  - Marlie Miles
+  - Emmie Mbale
+  - Emma Eastman
+  - Lorna Ginnell
+  - Steven C R Williams
+  - Derek K Jones
+  - Daniel C Alexander
+  - Peter A. Wijeratne
+  - Laurel J Gabard-Durnam
+  - Vanja Klepac-Ceraj
+  - Kevin S Bonham
+  - "Nicol\xF2 Pini"
+  - Ayesha Sania
+  - Maristella Lucchini
+  - Sean Deoni
+  - William P Fifer
+  - Melissa Gladstone
+  - Dima Amso
+  - Kirsten A Donald
+  publisher: Wellcome Open Research
+  date: '2026-05-16'
+  link: https://doi.org/hb569j
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1007/978-3-032-09513-8_49
   title: "Evaluating Structural Uncertainty in\_Accelerated MRI: Are Voxelwise Measures\
     \ Useful Surrogates?"
@@ -467,6 +512,144 @@
   date: '2026-01-01'
   link: https://doi.org/hbhrr7
   orcid: 0009-0001-3517-5471
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz70862_110838
+  title: "Disease timeline modelling of amyloid and tau PET reveals dynamic timescales\
+    \ of amyloid and tau accumulation in Alzheimer\u2019s disease"
+  authors:
+  - Alexandra L Young
+  - Peter A Wijeratne
+  - Leon M. Aksman
+  - Alexa Pichet Binette
+  - Olof Strandberg
+  - Neil P Oxtoby
+  - Andre Altmann
+  - Daniel C Alexander
+  - Erik Stomrud
+  - Sebastian Palmqvist
+  - "Niklas Mattsson\u2010Carlgren"
+  - Jacob W. Vogel
+  - Oskar Hansson
+  publisher: Alzheimer's &amp; Dementia
+  date: '2025-12-01'
+  link: https://doi.org/hb5664
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz70856_104804
+  title: Disease timeline modelling of amyloid and tau PET reveals dynamic timescales
+    of amyloid and tau accumulation in Alzheimer's disease
+  authors:
+  - Alexandra L Young
+  - Peter A Wijeratne
+  - Leon M. Aksman
+  - Alexa Pichet Binette
+  - Olof Strandberg
+  - Neil P Oxtoby
+  - Andre Altmann
+  - Daniel C Alexander
+  - Erik Stomrud
+  - Sebastian Palmqvist
+  - "Niklas Mattsson\u2010Carlgren"
+  - Jacob W. Vogel
+  - Oskar Hansson
+  publisher: Alzheimer's &amp; Dementia
+  date: '2025-12-01'
+  link: https://doi.org/hb5665
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz70856_100350
+  title: Staging early Alzheimer's disease progression in Down Syndrome using mixed
+    clinical, biofluid and neuroimaging markers with machine learning
+  authors:
+  - Mina Idris
+  - Fedal Saini
+  - Phoebe Ivain
+  - Leda A Bianchi
+  - Jasmine Wells
+  - Henrik Zetterberg
+  - Peter A Wijeratne
+  - Andre Strydom
+  publisher: Alzheimer's &amp; Dementia
+  date: '2025-12-01'
+  link: https://doi.org/hb6v4r
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2509.15124
+  title: Learning Mechanistic Subtypes of Neurodegeneration with a Physics-Informed
+    Variational Autoencoder Mixture Model
+  authors:
+  - Sanduni Pinnawala
+  - Annabelle Hartanto
+  - Ivor J. A. Simpson
+  - Peter A. Wijeratne
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hb6v4s
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2503.10527
+  title: 'Evaluating structural uncertainty in accelerated MRI: are voxelwise measures
+    useful surrogates?'
+  authors:
+  - Luca L. C. Trautmann
+  - Peter A. Wijeratne
+  - Itamar Ronen
+  - Ivor J. A. Simpson
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbnzqv
+  orcid: 0009-0001-3517-5471
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz.70446
+  title: Staging of Alzheimer's disease progression in Down syndrome using mixed clinical
+    and plasma biomarker measures with machine learning
+  authors:
+  - Mina Idris
+  - Fedal Saini
+  - Phoebe Ivain
+  - R. Asaad Baksh
+  - Leda A. Bianchi
+  - Sarah E. Pape
+  - Henrik Zetterberg
+  - Peter A. Wijeratne
+  - "Andr\xE9 Strydom"
+  publisher: Alzheimer's &amp; Dementia
+  date: '2025-07-01'
+  link: https://doi.org/g95nts
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2504.10039
+  title: Investigating the Role of Bilateral Symmetry for Inpainting Brain MRI
+  authors:
+  - Sergey Kuznetsov
+  - Sanduni Pinnawala
+  - Peter A. Wijeratne
+  - Ivor J. A. Simpson
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hb6v4t
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2504.09514
+  title: Capturing Longitudinal Changes in Brain Morphology Using Temporally Parameterized
+    Neural Displacement Fields
+  authors:
+  - Aisha L. Shuaibu
+  - Kieran A. Gibb
+  - Peter A. Wijeratne
+  - Ivor J. A. Simpson
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hcb46j
+  orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1093/braincomms/fcaf066
@@ -515,9 +698,42 @@
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
-- title: "Unscrambling disease progression at scale: fast inference of event\n  permutations\
-    \ with optimal transport"
-  date: '2024-11-23'
+- id: doi:10.7759/cureus.78744
+  title: Modeling Liver Fibrosis Progression in Patients With Viral Hepatitis Using
+    the Machine Learning Tool Subtype and Stage Inference (SuStaIn)
+  authors:
+  - Akiyoshi Suzuki
+  - Katsuhiro Sano
+  - Yuya Saito
+  - Peter Wijeratne
+  - Kotaro Yamamoto
+  - Shohei Fujita
+  - Jun Woo
+  - Nobuo Tomizawa
+  - Koji Kamagata
+  - Hiroshi Imamura
+  - Shuichiro Shiina
+  - Akio Saiura
+  - Kenichi Ikejima
+  - Ryohei Kuwatsuru
+  - Yoshitaka Masutani
+  - Daniel Alexander
+  - Shigeki Aoki
+  publisher: Cureus
+  date: '2025-02-08'
+  link: https://doi.org/hb5667
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2410.14388
+  title: 'Unscrambling disease progression at scale: fast inference of event permutations
+    with optimal transport'
+  authors:
+  - Peter A. Wijeratne
+  - Daniel C. Alexander
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hcfwkh
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -553,6 +769,61 @@
     &amp; Visualization'
   date: '2024-03-31'
   link: https://doi.org/hbfbxz
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.03.14.24304298
+  title: Distinct spatiotemporal atrophy patterns in corticobasal syndrome are associated
+    with different underlying pathologies
+  authors:
+  - William J Scotton
+  - Cameron Shand
+  - Emily Todd
+  - Martina Bocchetta
+  - David M Cash
+  - Lawren VandeVrede
+  - Hilary W Heuer
+  - Alexandra L Young
+  - Neil P Oxtoby
+  - Daniel C Alexander
+  - James B Rowe
+  - Huw Morris
+  - Adam L Boxer
+  - Jonathan D Rohrer
+  - Peter A Wijeratne
+  publisher: openRxiv
+  date: '2024-03-18'
+  link: https://doi.org/hb5668
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.12688/wellcomeopenres.19638.1
+  title: 'Characterizing developing executive functions in the first 1000 days in
+    South Africa and Malawi: The Khula Study'
+  authors:
+  - Michal R Zieff
+  - Marlie Miles
+  - Emmie Mbale
+  - Emma Eastman
+  - Lorna Ginnell
+  - Steven C R Williams
+  - Derek K Jones
+  - Daniel C Alexander
+  - Peter A. Wijeratne
+  - Laurel J Gabard-Durnam
+  - Vanja Klepac-Ceraj
+  - Kevin S Bonham
+  - "Nicol\xF2 Pini"
+  - Ayesha Sania
+  - Maristella Lucchini
+  - Sean Deoni
+  - William P Fifer
+  - Melissa Gladstone
+  - Dima Amso
+  - Kirsten A Donald
+  publisher: Wellcome Open Research
+  date: '2024-03-20'
+  link: https://doi.org/hb569h
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -600,6 +871,26 @@
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.2463/jjmrm.2023-1790
+  title: Temporal Progression Patterns of White-Matter Degeneration in CBS and PSP
+    Identified with Subtype &amp; Stage Inference (SuStaIn) [Proceedings of the 2021
+    Young Investigator Award]
+  authors:
+  - Yuya SAITO
+  - Peter A. WIJERATNE
+  - Koji KAMAGATA
+  - Christina ANDICA
+  - Wataru UCHIDA
+  - Toshiaki AKASHI
+  - Akihiko WADA
+  - Masaaki HORI
+  - Shigeki AOKI
+  publisher: Japanese Journal of Magnetic Resonance in Medicine
+  date: '2023-08-15'
+  link: https://doi.org/hb6v4v
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
 - title: Disease progression and genetic risk factors in the primary tauopathies
   date: '2024-03-06'
   orcid: 0000-0002-4885-6241
@@ -643,6 +934,24 @@
   publisher: Brain Communications
   date: '2023-03-02'
   link: https://doi.org/hbfbx3
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.07.24.23293076
+  title: "Predicting Huntington\u2019s disease state with ensemble learning &amp;\
+    \ sMRI: more than just the striatum"
+  authors:
+  - Maitrei Kohli
+  - Dorian Pustina
+  - John H. Warner
+  - Daniel C. Alexander
+  - Rachael I. Scahill
+  - Cristina Sampaio
+  - Sarah J. Tabrizi
+  - Peter A. Wijeratne
+  publisher: openRxiv
+  date: '2023-07-27'
+  link: https://doi.org/hb569k
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -747,7 +1056,7 @@
   - Frederik Barkhof
   - Declan Chard
   - Olga Ciccarelli
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-02-03'
   link: https://doi.org/hbfbzb
   orcid: 0000-0002-4885-6241
@@ -791,6 +1100,40 @@
   publisher: SoftwareX
   date: '2021-12-01'
   link: https://doi.org/gsw6zz
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2111.10443
+  title: Evaluation of automated airway morphological quantification for assessing
+    fibrosing lung disease
+  authors:
+  - Ashkan Pakzad
+  - Wing Keung Cheung
+  - Kin Quan
+  - Nesrin Mogulkoc
+  - Coline H. M. Van Moorsel
+  - Brian J. Bartholmai
+  - Hendrik W. Van Es
+  - Alper Ezircan
+  - Frouke Van Beek
+  - Marcel Veltkamp
+  - Ronald Karwoski
+  - Tobias Peikert
+  - Ryan D. Clay
+  - Finbar Foley
+  - Cassandra Braun
+  - Recep Savas
+  - Carole Sudre
+  - Tom Doel
+  - Daniel C. Alexander
+  - Peter Wijeratne
+  - David Hawkes
+  - Yipeng Hu
+  - John R Hurst
+  - Joseph Jacob
+  publisher: arXiv
+  date: '2021-01-01'
+  link: https://doi.org/hb5669
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -907,7 +1250,7 @@
   - Andre Altmann
   - Daniel C. Alexander
   - Alexandra L. Young
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-06-10'
   link: https://doi.org/hbfbzk
   orcid: 0000-0002-4885-6241
@@ -1036,7 +1379,7 @@
   - Frederik Barkhof
   - Daniel C. Alexander
   - Andre Altmann
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-12-19'
   link: https://doi.org/hbfbzp
   orcid: 0000-0002-4885-6241
@@ -1070,11 +1413,30 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: issn:1933-7213
-  title: ISSN 1933-7213 (Print) | Neurotherapeutics | The ISSN Portal
+  title: ISSN 1933-7213 - Neurotherapeutics (Print)
   authors: []
   publisher: ''
   date: ''
   link: https://portal.issn.org/resource/ISSN/1933-7213
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz.043478
+  title: Cognitive and clinical outcome measures for Alzheimer's disease prevention
+    trials in adults with Down syndrome
+  authors:
+  - Andre Strydom
+  - Asaad Baksh
+  - Rosalyn Hithersay
+  - Andrew J. Aschenbrenner
+  - Judith Jaeger
+  - Ben Carter
+  - Peter A Wijeratne
+  - Daniel C. Alexander
+  - Jason Hassenstab
+  publisher: Alzheimer's &amp; Dementia
+  date: '2020-12-01'
+  link: https://doi.org/hb567b
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -1125,11 +1487,27 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: issn:0028-3878
-  title: ISSN 0028-3878 (Print) | Neurology | The ISSN Portal
+  title: ISSN 0028-3878 - Neurology
   authors: []
   publisher: ''
   date: ''
   link: https://portal.issn.org/resource/ISSN/0028-3878
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1212/wnl.94.15_supplement.1603
+  title: "Discovering Dominant Features Associated with Disease Progression in Huntington\u2019\
+    s Disease (HD): A Data-driven Approach Using the Enroll-HD Database (1603)"
+  authors:
+  - Naghmeh Ghazaleh
+  - Richard Houghton
+  - Giuseppe Palermo
+  - Scott A. Schobel
+  - Peter Wijeratne
+  - Jeffrey Long
+  publisher: Neurology
+  date: '2020-04-14'
+  link: https://doi.org/hb6v4w
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -1154,9 +1532,28 @@
   - Amanda Heslegrave
   - Henrik Zetterberg
   - Edward J. Wild
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-03-31'
   link: https://doi.org/hbfbzs
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/alz.045412
+  title: "Tau\u2010first subtype of Alzheimer\u2019s disease progression consistently\
+    \ identified through PET and CSF"
+  authors:
+  - Leon M. Aksman
+  - Neil P. Oxtoby
+  - Marzia Antonella Scelsi
+  - Peter A. Wijeratne
+  - Alexandra L. Young
+  - Isadora Lopes Alves
+  - Daniel C. Alexander
+  - Frederik Barkhof
+  - Andre Altmann
+  publisher: Alzheimer's &amp; Dementia
+  date: '2020-12-01'
+  link: https://doi.org/hb567c
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -4120,11 +4517,27 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: issn:1351-5101
-  title: ISSN 1351-5101 (Print) | European journal of neurology | The ISSN Portal
+  title: ISSN 1351-5101 - European journal of neurology (Print)
   authors: []
   publisher: ''
   date: ''
   link: https://portal.issn.org/resource/ISSN/1351-5101
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jalz.2019.06.4756
+  title: "O4\u201003\u201005: LONGITUDINAL COGNITIVE DECLINE AND PRODROMAL STAGING\
+    \ MODEL FOR ALZHEIMER'S DISEASE IN DOWN SYNDROME"
+  authors:
+  - Andre Strydom
+  - Peter A. Wijeratne
+  - Carla Startin
+  - Nicholas C. Firth
+  - Rosalyn Hithersay
+  - Daniel C. Alexander
+  publisher: Alzheimer's &amp; Dementia
+  date: '2019-07-01'
+  link: https://doi.org/hb567d
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -4137,6 +4550,29 @@
   publisher: Interface Focus
   date: '2019-04-19'
   link: https://doi.org/hbfbzt
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1212/wnl.92.15_supplement.s16.003
+  title: "Evaluation of mutant huntingtin and neurofilament proteins as potential\
+    \ markers in Huntington\u2019s disease (S16.003)"
+  authors:
+  - Filipe B. Rodrigues
+  - Lauren M. Byrne
+  - Eileanoir Johnson
+  - Peter Wijeratne
+  - Enrico de Vita
+  - Daniel Alexander
+  - Giuseppe Palermo
+  - Christian Czech
+  - Scott Schobel
+  - Rachael Scahill
+  - Amanda Heslegrave
+  - Henrik Zetterberg
+  - Edward Wild
+  publisher: Neurology
+  date: '2019-04-09'
+  link: https://doi.org/hb567f
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -7180,6 +7616,24 @@
   publisher: Physical Review Letters
   date: '2018-04-20'
   link: https://doi.org/gdjvdf
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/263095
+  title: "Cognitive Changes associated with Alzheimer\u2019s disease in Down syndrome"
+  authors:
+  - Nicholas C. Firth
+  - Carla M. Startin
+  - Rosalyn Hithersay
+  - Sarah Hamburg
+  - Peter A. Wijeratne
+  - Kin Y. Mok
+  - John Hardy
+  - Daniel C. Alexander
+  - "Andr\xE9 Strydom"
+  publisher: openRxiv
+  date: '2018-02-12'
+  link: https://doi.org/gg8j9p
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
@@ -105584,12 +106038,19 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1103/PhysRevLett.114.072302
-  title: "Measurements of the Nuclear Modification Factor for Jets in<mml:math xmlns:mml=\"\
-    http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mi>Pb</mml:mi><mml:mo>+</mml:mo><mml:mi>Pb</mml:mi></mml:math>Collisions\
-    \ at<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"\
-    ><mml:msqrt><mml:msub><mml:mi>s</mml:mi><mml:mi>NN</mml:mi></mml:msub></mml:msqrt><mml:mo>=</mml:mo><mml:mn>2.76</mml:mn><mml:mtext>\u2009\
-    </mml:mtext><mml:mtext>\u2009</mml:mtext><mml:mi>TeV</mml:mi></mml:math>with the\
-    \ ATLAS Detector"
+  title: "Measurements of the Nuclear Modification Factor for Jets in\n          \
+    \          <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"\
+    inline\">\n                      <mml:mi>Pb</mml:mi>\n                      <mml:mo>+</mml:mo>\n\
+    \                      <mml:mi>Pb</mml:mi>\n                    </mml:math>\n\
+    \                    Collisions at\n                    <mml:math xmlns:mml=\"\
+    http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                   \
+    \   <mml:msqrt>\n                        <mml:msub>\n                        \
+    \  <mml:mi>s</mml:mi>\n                          <mml:mi>NN</mml:mi>\n       \
+    \                 </mml:msub>\n                      </mml:msqrt>\n          \
+    \            <mml:mo>=</mml:mo>\n                      <mml:mn>2.76</mml:mn>\n\
+    \                      <mml:mtext>\u2009</mml:mtext>\n                      <mml:mtext>\u2009\
+    </mml:mtext>\n                      <mml:mi>TeV</mml:mi>\n                   \
+    \ </mml:math>\n                    with the ATLAS Detector"
   authors:
   - G. Aad
   - B. Abbott
@@ -178007,9 +178468,12 @@
   file: orcid.yaml
 - id: doi:10.1016/j.nuclphysb.2014.10.019
   title: "Measurement of the total cross section from elastic scattering in pp collisions\
-    \ at <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si1.gif\"\
-    \ overflow=\"scroll\"><mml:msqrt><mml:mi>s</mml:mi></mml:msqrt><mml:mo>=</mml:mo><mml:mn>7</mml:mn><mml:mtext>\_\
-    </mml:mtext><mml:mtext>TeV</mml:mtext></mml:math> with the ATLAS detector"
+    \ at\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+    \ altimg=\"si1.gif\" overflow=\"scroll\">\n                      <mml:msqrt>\n\
+    \                        <mml:mi>s</mml:mi>\n                      </mml:msqrt>\n\
+    \                      <mml:mo>=</mml:mo>\n                      <mml:mn>7</mml:mn>\n\
+    \                      <mml:mtext>\_</mml:mtext>\n                      <mml:mtext>TeV</mml:mtext>\n\
+    \                    </mml:math>\n                    with the ATLAS detector"
   authors:
   - G. Aad
   - B. Abbott
@@ -186717,9 +187181,12 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1103/PhysRevLett.113.212004
-  title: "Observation of an Excited<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
-    \ display=\"inline\"><mml:msubsup><mml:mi>B</mml:mi><mml:mi>c</mml:mi><mml:mo>\xB1\
-    </mml:mo></mml:msubsup></mml:math>Meson State with the ATLAS Detector"
+  title: "Observation of an Excited\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+    \ display=\"inline\">\n                      <mml:msubsup>\n                 \
+    \       <mml:mi>B</mml:mi>\n                        <mml:mi>c</mml:mi>\n     \
+    \                   <mml:mo>\xB1</mml:mo>\n                      </mml:msubsup>\n\
+    \                    </mml:math>\n                    Meson State with the ATLAS\
+    \ Detector"
   authors:
   - G. Aad
   - B. Abbott
@@ -235215,8 +235682,16 @@
   file: orcid.yaml
 - id: doi:10.1103/PhysRevC.90.044906
   title: "Measurement of long-range pseudorapidity correlations and azimuthal harmonics\
-    \ in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:msqrt><mml:msub><mml:mi>s</mml:mi><mml:mrow><mml:mi>N</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:msqrt><mml:mo>=</mml:mo><mml:mn>5.02</mml:mn></mml:mrow></mml:math>\_\
-    TeV proton-lead collisions with the ATLAS detector"
+    \ in\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+    >\n                      <mml:mrow>\n                        <mml:msqrt>\n   \
+    \                       <mml:msub>\n                            <mml:mi>s</mml:mi>\n\
+    \                            <mml:mrow>\n                              <mml:mi>N</mml:mi>\n\
+    \                              <mml:mi>N</mml:mi>\n                          \
+    \  </mml:mrow>\n                          </mml:msub>\n                      \
+    \  </mml:msqrt>\n                        <mml:mo>=</mml:mo>\n                \
+    \        <mml:mn>5.02</mml:mn>\n                      </mml:mrow>\n          \
+    \          </mml:math>\n                    \_TeV proton-lead collisions with\
+    \ the ATLAS detector"
   authors:
   - G. Aad
   - B. Abbott
@@ -447348,6 +447823,2714 @@
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.nuclphysa.2013.02.192
+  title: The ATLAS Collaboration
+  authors:
+  - G. Aad
+  - T. Abajyan
+  - B. Abbott
+  - J. Abdallah
+  - S. Abdel Khalek
+  - A.A. Abdelalim
+  - O. Abdinov
+  - R. Aben
+  - B. Abi
+  - O.S. AbouZeid
+  - H. Abramowicz
+  - H. Abreu
+  - B.S. Acharya
+  - L. Adamczyk
+  - D.L. Adams
+  - T.N. Addy
+  - J. Adelman
+  - S. Adomeit
+  - T. Adye
+  - S. Aefsky
+  - J.A. Aguilar-Saavedra
+  - M. Agustoni
+  - M. Aharrouche
+  - S.P. Ahlen
+  - A. Ahmad
+  - M. Ahsan
+  - G. Aielli
+  - T. Akdogan
+  - "T.P.A. \xC5kesson"
+  - G. Akimoto
+  - A.V. Akimov
+  - M.S. Alam
+  - M.A. Alam
+  - J. Albert
+  - S. Albrand
+  - M. Aleksa
+  - I.N. Aleksandrov
+  - C. Alexa
+  - G. Alexander
+  - G. Alexandre
+  - T. Alexopoulos
+  - M. Alhroob
+  - M. Aliev
+  - G. Alimonti
+  - J. Alison
+  - B.M.M. Allbrooke
+  - P.P. Allport
+  - S.E. Allwood-Spiers
+  - J. Almond
+  - A. Aloisio
+  - R. Alon
+  - A. Alonso
+  - F. Alonso
+  - A. Altheimer
+  - B. Alvarez Gonzalez
+  - M.G. Alviggi
+  - C. Amelung
+  - S.P. Amor Dos Santos
+  - A. Amorim
+  - N. Amram
+  - C. Anastopoulos
+  - L.S. Ancu
+  - N. Andari
+  - T. Andeen
+  - C.F. Anders
+  - G. Anders
+  - K.J. Anderson
+  - A. Andreazza
+  - V. Andrei
+  - X.S. Anduaga
+  - S. Angelidakis
+  - P. Anger
+  - A. Angerami
+  - F. Anghinolfi
+  - A. Anisenkov
+  - N. Anjos
+  - A. Annovi
+  - A. Antonaki
+  - M. Antonelli
+  - A. Antonov
+  - J. Antos
+  - F. Anulli
+  - M. Aoki
+  - S. Aoun
+  - L. Aperio Bella
+  - R. Apolle
+  - G. Arabidze
+  - I. Aracena
+  - Y. Arai
+  - A.T.H. Arce
+  - S. Arfaoui
+  - J-F. Arguin
+  - S. Argyropoulos
+  - M. Arik
+  - A.J. Armbruster
+  - O. Arnaez
+  - V. Arnal
+  - C. Arnault
+  - A. Artamonov
+  - G. Artoni
+  - D. Arutinov
+  - S. Asai
+  - S. Ask
+  - "B. \xC5sman"
+  - L. Asquith
+  - K. Assamagan
+  - M. Atkinson
+  - K. Augsten
+  - M. Aurousseau
+  - G. Avolio
+  - R. Avramidou
+  - G. Azuelos
+  - Y. Azuma
+  - M.A. Baak
+  - A.M. Bach
+  - H. Bachacou
+  - K. Bachas
+  - M. Backes
+  - M. Backhaus
+  - J. Backus Mayes
+  - E. Badescu
+  - P. Bagnaia
+  - S. Bahinipati
+  - Y. Bai
+  - T. Bain
+  - J.T. Baines
+  - O.K. Baker
+  - S. Baker
+  - P. Balek
+  - E. Banas
+  - P. Banerjee
+  - Sw. Banerjee
+  - D. Banfi
+  - A. Bangert
+  - V. Bansal
+  - H.S. Bansil
+  - L. Barak
+  - A. Barbaro Galtieri
+  - T. Barber
+  - E.L. Barberio
+  - D. Barberis
+  - M. Barbero
+  - T. Barillari
+  - M. Barisonzi
+  - T. Barklow
+  - N. Barlow
+  - B.M. Barnett
+  - R.M. Barnett
+  - A. Baroncelli
+  - G. Barone
+  - A.J. Barr
+  - F. Barreiro
+  - "J. Barreiro Guimar\xE3es da Costa"
+  - P. Barrillon
+  - R. Bartoldus
+  - A.E. Barton
+  - V. Bartsch
+  - A. Basye
+  - R.L. Bates
+  - L. Batkova
+  - J.R. Batley
+  - A. Battaglia
+  - M. Battistin
+  - F. Bauer
+  - H.S. Bawa
+  - S. Beale
+  - T. Beau
+  - P.H. Beauchemin
+  - R. Beccherle
+  - P. Bechtle
+  - H.P. Beck
+  - A.K. Becker
+  - S. Becker
+  - M. Beckingham
+  - A.J. Beddall
+  - A. Beddall
+  - S. Bedikian
+  - V.A. Bednyakov
+  - C.P. Bee
+  - L.J. Beemster
+  - M. Begel
+  - S. Behar Harpaz
+  - M. Beimforde
+  - C. Belanger-Champagne
+  - P.J. Bell
+  - W.H. Bell
+  - G. Bella
+  - L. Bellagamba
+  - M. Bellomo
+  - A. Belloni
+  - O. Beloborodova
+  - K. Belotskiy
+  - O. Beltramello
+  - O. Benary
+  - D. Benchekroun
+  - K. Bendtz
+  - N. Benekos
+  - Y. Benhammou
+  - E. Benhar Noccioli
+  - J.A. Benitez Garcia
+  - D.P. Benjamin
+  - M. Benoit
+  - J.R. Bensinger
+  - K. Benslama
+  - S. Bentvelsen
+  - D. Berge
+  - E. Bergeaas Kuutmann
+  - N. Berger
+  - F. Berghaus
+  - E. Berglund
+  - J. Beringer
+  - P. Bernat
+  - R. Bernhard
+  - C. Bernius
+  - T. Berry
+  - C. Bertella
+  - F. Bertolucci
+  - M.I. Besana
+  - G.J. Besjes
+  - N. Besson
+  - S. Bethke
+  - W. Bhimji
+  - R.M. Bianchi
+  - M. Bianco
+  - O. Biebel
+  - S.P. Bieniek
+  - K. Bierwagen
+  - J. Biesiada
+  - M. Biglietti
+  - H. Bilokon
+  - M. Bindi
+  - S. Binet
+  - A. Bingul
+  - C. Bini
+  - B. Bittner
+  - K.M. Black
+  - R.E. Blair
+  - J.-B. Blanchard
+  - G. Blanchot
+  - T. Blazek
+  - I. Bloch
+  - C. Blocker
+  - A. Blondel
+  - W. Blum
+  - U. Blumenschein
+  - G.J. Bobbink
+  - V.B. Bobrovnikov
+  - S.S. Bocchetta
+  - A. Bocci
+  - C.R. Boddy
+  - M. Boehler
+  - J. Boek
+  - N. Boelaert
+  - J.A. Bogaerts
+  - A. Bogdanchikov
+  - C. Bohm
+  - V. Boisvert
+  - T. Bold
+  - N.M. Bolnet
+  - M. Bomben
+  - M. Bona
+  - M. Boonekamp
+  - S. Bordoni
+  - C. Borer
+  - A. Borisov
+  - G. Borissov
+  - I. Borjanovic
+  - M. Borri
+  - S. Borroni
+  - V. Bortolotto
+  - K. Bos
+  - D. Boscherini
+  - M. Bosman
+  - H. Boterenbrood
+  - J. Bouchami
+  - J. Boudreau
+  - E.V. Bouhova-Thacker
+  - D. Boumediene
+  - C. Bourdarios
+  - N. Bousson
+  - A. Boveia
+  - J. Boyd
+  - I.R. Boyko
+  - I. Bozovic-Jelisavcic
+  - J. Bracinik
+  - A. Brandt
+  - G. Brandt
+  - O. Brandt
+  - U. Bratzler
+  - B. Brau
+  - J.E. Brau
+  - S.F. Brazzale
+  - B. Brelier
+  - J. Bremer
+  - K. Brendlinger
+  - R. Brenner
+  - S. Bressler
+  - D. Britton
+  - F.M. Brochu
+  - I. Brock
+  - R. Brock
+  - J. Bronner
+  - G. Brooijmans
+  - T. Brooks
+  - W.K. Brooks
+  - G. Brown
+  - H. Brown
+  - P.A. Bruckman de Renstrom
+  - D. Bruncko
+  - R. Bruneliere
+  - S. Brunet
+  - A. Bruni
+  - G. Bruni
+  - M. Bruschi
+  - T. Buanes
+  - Q. Buat
+  - F. Bucci
+  - J. Buchanan
+  - P. Buchholz
+  - R.M. Buckingham
+  - A.G. Buckley
+  - S.I. Buda
+  - I.A. Budagov
+  - B. Budick
+  - "V. B\xFCscher"
+  - L. Bugge
+  - O. Bulekov
+  - A.C. Bundock
+  - M. Bunse
+  - H. Burckhart
+  - S. Burdin
+  - T. Burgess
+  - S. Burke
+  - E. Busato
+  - P. Bussey
+  - C.P. Buszello
+  - B. Butler
+  - J.M. Butler
+  - C.M. Buttar
+  - J.M. Butterworth
+  - W. Buttinger
+  - "S. Cabrera Urb\xE1n"
+  - D. Caforio
+  - O. Cakir
+  - P. Calafiura
+  - G. Calderini
+  - P. Calfayan
+  - R. Calkins
+  - L.P. Caloba
+  - D. Calvet
+  - S. Calvet
+  - R. Camacho Toro
+  - D. Cameron
+  - L.M. Caminada
+  - R. Caminal Armadans
+  - S. Campana
+  - M. Campanelli
+  - V. Canale
+  - F. Canelli
+  - A. Canepa
+  - J. Cantero
+  - R. Cantrill
+  - L. Capasso
+  - M.D.M. Capeans Garrido
+  - I. Caprini
+  - M. Caprini
+  - D. Capriotti
+  - M. Capua
+  - R. Caputo
+  - R. Cardarelli
+  - T. Carli
+  - G. Carlino
+  - L. Carminati
+  - B. Caron
+  - S. Caron
+  - E. Carquin
+  - G.D. Carrillo Montoya
+  - J.R. Carter
+  - J. Carvalho
+  - D. Casadei
+  - M.P. Casado
+  - M. Cascella
+  - A.M. Castaneda Hernandez
+  - E. Castaneda-Miranda
+  - V. Castillo Gimenez
+  - N.F. Castro
+  - P. Catastini
+  - A. Catinaccio
+  - J.R. Catmore
+  - A. Cattai
+  - G. Cattani
+  - S. Caughron
+  - V. Cavaliere
+  - D. Cavalli
+  - M. Cavalli-Sforza
+  - V. Cavasinni
+  - F. Ceradini
+  - A.S. Cerqueira
+  - A. Cerri
+  - L. Cerrito
+  - F. Cerutti
+  - S.A. Cetin
+  - A. Chafaq
+  - D. Chakraborty
+  - I. Chalupkova
+  - K. Chan
+  - P. Chang
+  - B. Chapleau
+  - J.D. Chapman
+  - E. Chareyre
+  - D.G. Charlton
+  - V. Chavda
+  - C.A. Chavez Barajas
+  - S. Cheatham
+  - S. Chekanov
+  - S.V. Chekulaev
+  - G.A. Chelkov
+  - M.A. Chelstowska
+  - C. Chen
+  - H. Chen
+  - S. Chen
+  - X. Chen
+  - Y. Chen
+  - Y. Cheng
+  - A. Cheplakov
+  - R. Cherkaoui El Moursli
+  - V. Chernyatin
+  - E. Cheu
+  - S.L. Cheung
+  - L. Chevalier
+  - G. Chiefari
+  - L. Chikovani
+  - J.T. Childers
+  - A. Chilingarov
+  - G. Chiodini
+  - A.S. Chisholm
+  - R.T. Chislett
+  - A. Chitan
+  - M.V. Chizhov
+  - G. Choudalakis
+  - S. Chouridou
+  - I.A. Christidi
+  - D. Chromek-Burckhart
+  - J. Chudoba
+  - G. Ciapetti
+  - A.K. Ciftci
+  - R. Ciftci
+  - D. Cinca
+  - V. Cindro
+  - C. Ciocca
+  - A. Ciocio
+  - P. Cirkovic
+  - Z.H. Citron
+  - M. Ciubancan
+  - A. Clark
+  - P.J. Clark
+  - R.N. Clarke
+  - J.C. Clemens
+  - B. Clement
+  - C. Clement
+  - Y. Coadou
+  - M. Cobal
+  - A. Coccaro
+  - J. Cochran
+  - L. Coffey
+  - J.G. Cogan
+  - J. Coggeshall
+  - E. Cogneras
+  - S. Cole
+  - A.P. Colijn
+  - N.J. Collins
+  - C. Collins-Tooth
+  - J. Collot
+  - T. Colombo
+  - G. Colon
+  - G. Compostella
+  - "P. Conde Mui\xF1o"
+  - E. Coniavitis
+  - M.C. Conidi
+  - S.M. Consonni
+  - V. Consorti
+  - S. Constantinescu
+  - G. Conti
+  - F. Conventi
+  - M. Cooke
+  - B.D. Cooper
+  - A.M. Cooper-Sarkar
+  - K. Copic
+  - T. Cornelissen
+  - M. Corradi
+  - F. Corriveau
+  - A. Cortes-Gonzalez
+  - G. Cortiana
+  - G. Costa
+  - M.J. Costa
+  - D. Costanzo
+  - "D. C\xF4t\xE9"
+  - L. Courneyea
+  - G. Cowan
+  - C. Cowden
+  - B.E. Cox
+  - K. Cranmer
+  - F. Crescioli
+  - M. Cristinziani
+  - G. Crosetti
+  - "S. Cr\xE9p\xE9-Renaudin"
+  - C.-M. Cuciuc
+  - C. Cuenca Almenar
+  - T. Cuhadar Donszelmann
+  - M. Curatolo
+  - C. Cuthbert
+  - H. Czirr
+  - P. Czodrowski
+  - Z. Czyczula
+  - "S. D\u02BCAuria"
+  - "M. D\u02BCOnofrio"
+  - "A. D\u02BCOrazio"
+  - M.J. Da Cunha Sargedas De Sousa
+  - C. Da Via
+  - W. Dabrowski
+  - A. Dafinca
+  - T. Dai
+  - C. Dallapiccola
+  - M. Dam
+  - D.S. Damiani
+  - H.O. Danielsson
+  - V. Dao
+  - G. Darbo
+  - G.L. Darlea
+  - J.A. Dassoulas
+  - W. Davey
+  - T. Davidek
+  - R. Davidson
+  - E. Davies
+  - M. Davies
+  - O. Davignon
+  - A.R. Davison
+  - Y. Davygora
+  - E. Dawe
+  - I. Dawson
+  - R.K. Daya-Ishmukhametova
+  - K. De
+  - R. de Asmundis
+  - S. De Castro
+  - S. De Cecco
+  - J. de Graat
+  - N. De Groot
+  - P. de Jong
+  - H. De la Torre
+  - F. De Lorenzi
+  - L. de Mora
+  - L. De Nooij
+  - D. De Pedis
+  - A. De Salvo
+  - U. De Sanctis
+  - A. De Santo
+  - J.B. De Vivie De Regie
+  - W.J. Dearnaley
+  - R. Debbe
+  - C. Debenedetti
+  - B. Dechenaux
+  - D.V. Dedovich
+  - J. Degenhardt
+  - J. Del Peso
+  - T. Del Prete
+  - T. Delemontex
+  - M. Deliyergiyev
+  - "A. Dell\u02BCAcqua"
+  - "L. Dell\u02BCAsta"
+  - M. Della Pietra
+  - D. della Volpe
+  - M. Delmastro
+  - P.A. Delsart
+  - C. Deluca
+  - S. Demers
+  - M. Demichev
+  - B. Demirkoz
+  - S.P. Denisov
+  - D. Derendarz
+  - J.E. Derkaoui
+  - F. Derue
+  - P. Dervan
+  - K. Desch
+  - E. Devetak
+  - P.O. Deviveiros
+  - A. Dewhurst
+  - B. DeWilde
+  - S. Dhaliwal
+  - R. Dhullipudi
+  - A. Di Ciaccio
+  - L. Di Ciaccio
+  - C. Di Donato
+  - A. Di Girolamo
+  - B. Di Girolamo
+  - A. Di Mattia
+  - B. Di Micco
+  - R. Di Nardo
+  - A. Di Simone
+  - R. Di Sipio
+  - M.A. Diaz
+  - E.B. Diehl
+  - J. Dietrich
+  - T.A. Dietzsch
+  - S. Diglio
+  - K. Dindar Yagci
+  - J. Dingfelder
+  - F. Dinut
+  - C. Dionisi
+  - P. Dita
+  - S. Dita
+  - F. Dittus
+  - F. Djama
+  - T. Djobava
+  - M.A.B. do Vale
+  - T.K.O. Doan
+  - D. Dobos
+  - E. Dobson
+  - C. Doglioni
+  - T. Doherty
+  - J. Dolejsi
+  - Z. Dolezal
+  - T. Dohmae
+  - M. Donadelli
+  - J. Donini
+  - J. Dopke
+  - A. Doria
+  - A. Dotti
+  - M.T. Dova
+  - A.T. Doyle
+  - M. Dris
+  - J. Dubbert
+  - S. Dube
+  - E. Duchovni
+  - G. Duckeck
+  - D. Duda
+  - A. Dudarev
+  - F. Dudziak
+  - "M. D\xFChrssen"
+  - L. Duflot
+  - M-A. Dufour
+  - L. Duguid
+  - M. Dunford
+  - H. Duran Yildiz
+  - M. Dwuznik
+  - "M. D\xFCren"
+  - J. Ebke
+  - S. Eckweiler
+  - W. Edson
+  - C.A. Edwards
+  - N.C. Edwards
+  - W. Ehrenfeld
+  - T. Eifert
+  - G. Eigen
+  - K. Einsweiler
+  - T. Ekelof
+  - M. El Kacimi
+  - M. Ellert
+  - S. Elles
+  - F. Ellinghaus
+  - K. Ellis
+  - N. Ellis
+  - J. Elmsheuser
+  - M. Elsing
+  - D. Emeliyanov
+  - R. Engelmann
+  - A. Engl
+  - J. Erdmann
+  - A. Ereditato
+  - D. Eriksson
+  - J. Ernst
+  - M. Ernst
+  - J. Ernwein
+  - D. Errede
+  - S. Errede
+  - E. Ertel
+  - M. Escalier
+  - H. Esch
+  - C. Escobar
+  - X. Espinal Curull
+  - B. Esposito
+  - A.I. Etienvre
+  - E. Etzion
+  - D. Evangelakou
+  - H. Evans
+  - L. Fabbri
+  - C. Fabre
+  - R.M. Fakhrutdinov
+  - S. Falciano
+  - Y. Fang
+  - M. Fanti
+  - A. Farbin
+  - A. Farilla
+  - J. Farley
+  - T. Farooque
+  - S. Farrell
+  - S.M. Farrington
+  - P. Farthouat
+  - F. Fassi
+  - P. Fassnacht
+  - D. Fassouliotis
+  - B. Fatholahzadeh
+  - A. Favareto
+  - L. Fayard
+  - S. Fazio
+  - R. Febbraro
+  - P. Federic
+  - O.L. Fedin
+  - W. Fedorko
+  - M. Fehling-Kaschek
+  - L. Feligioni
+  - C. Feng
+  - E.J. Feng
+  - A.B. Fenyuk
+  - J. Ferencei
+  - W. Fernando
+  - S. Ferrag
+  - J. Ferrando
+  - V. Ferrara
+  - A. Ferrari
+  - P. Ferrari
+  - R. Ferrari
+  - D.E. Ferreira de Lima
+  - A. Ferrer
+  - D. Ferrere
+  - C. Ferretti
+  - A. Ferretto Parodi
+  - M. Fiascaris
+  - F. Fiedler
+  - "A. Filip\u010Di\u010D"
+  - F. Filthaut
+  - M. Fincke-Keeler
+  - M.C.N. Fiolhais
+  - L. Fiorini
+  - A. Firan
+  - G. Fischer
+  - M.J. Fisher
+  - M. Flechl
+  - I. Fleck
+  - J. Fleckner
+  - P. Fleischmann
+  - S. Fleischmann
+  - T. Flick
+  - A. Floderus
+  - L.R. Flores Castillo
+  - M.J. Flowerdew
+  - T. Fonseca Martin
+  - A. Formica
+  - A. Forti
+  - D. Fortin
+  - D. Fournier
+  - H. Fox
+  - P. Francavilla
+  - M. Franchini
+  - S. Franchino
+  - D. Francis
+  - T. Frank
+  - M. Franklin
+  - S. Franz
+  - M. Fraternali
+  - S. Fratina
+  - S.T. French
+  - C. Friedrich
+  - F. Friedrich
+  - D. Froidevaux
+  - J.A. Frost
+  - C. Fukunaga
+  - E. Fullana Torregrosa
+  - B.G. Fulsom
+  - J. Fuster
+  - C. Gabaldon
+  - O. Gabizon
+  - T. Gadfort
+  - S. Gadomski
+  - G. Gagliardi
+  - P. Gagnon
+  - C. Galea
+  - B. Galhardo
+  - E.J. Gallas
+  - V. Gallo
+  - B.J. Gallop
+  - P. Gallus
+  - K.K. Gan
+  - Y.S. Gao
+  - A. Gaponenko
+  - F. Garberson
+  - M. Garcia-Sciveres
+  - "C. Garc\xEDa"
+  - "J.E. Garc\xEDa Navarro"
+  - R.W. Gardner
+  - N. Garelli
+  - V. Garonne
+  - C. Gatti
+  - G. Gaudio
+  - B. Gaur
+  - L. Gauthier
+  - I.L. Gavrilenko
+  - C. Gay
+  - G. Gaycken
+  - E.N. Gazis
+  - P. Ge
+  - Z. Gecse
+  - C.N.P. Gee
+  - D.A.A. Geerts
+  - Ch. Geich-Gimbel
+  - K. Gellerstedt
+  - C. Gemme
+  - A. Gemmell
+  - M.H. Genest
+  - S. Gentile
+  - M. George
+  - S. George
+  - A. Gershon
+  - N. Ghodbane
+  - B. Giacobbe
+  - S. Giagu
+  - V. Giakoumopoulou
+  - V. Giangiobbe
+  - F. Gianotti
+  - A. Gibson
+  - S.M. Gibson
+  - M. Gilchriese
+  - D. Gillberg
+  - D.M. Gingrich
+  - N. Giokaris
+  - M.P. Giordani
+  - R. Giordano
+  - F.M. Giorgi
+  - P. Giovannini
+  - P.F. Giraud
+  - D. Giugni
+  - M. Giunta
+  - B.K. Gjelsten
+  - L.K. Gladilin
+  - C. Glasman
+  - J. Glatzer
+  - A. Glazov
+  - K.W. Glitza
+  - G.L. Glonti
+  - J.R. Goddard
+  - J. Godfrey
+  - J. Godlewski
+  - M. Goebel
+  - C. Goeringer
+  - "C. G\xF6ssling"
+  - S. Goldfarb
+  - T. Golling
+  - A. Gomes
+  - L.S. Gomez Fajardo
+  - "R. Gon\xE7alo"
+  - J. Goncalves Pinto Firmino Da Costa
+  - L. Gonella
+  - "S. Gonz\xE1lez de la Hoz"
+  - G. Gonzalez Parra
+  - M.L. Gonzalez Silva
+  - S. Gonzalez-Sevilla
+  - J.J. Goodson
+  - L. Goossens
+  - P.A. Gorbounov
+  - H.A. Gordon
+  - I. Gorelov
+  - B. Gorini
+  - E. Gorini
+  - "A. Gori\u0161ek"
+  - E. Gornicki
+  - A.T. Goshaw
+  - M.I. Gostkin
+  - M. Gouighri
+  - D. Goujdami
+  - M.P. Goulette
+  - A.G. Goussiou
+  - C. Goy
+  - S. Gozpinar
+  - I. Grabowska-Bold
+  - "P. Grafstr\xF6m"
+  - K-J. Grahn
+  - E. Gramstad
+  - S. Grancagnolo
+  - V. Grassi
+  - V. Gratchev
+  - N. Grau
+  - H.M. Gray
+  - J.A. Gray
+  - E. Graziani
+  - O.G. Grebenyuk
+  - T. Greenshaw
+  - Z.D. Greenwood
+  - K. Gregersen
+  - I.M. Gregor
+  - P. Grenier
+  - J. Griffiths
+  - A.A. Grillo
+  - S. Grinstein
+  - Ph. Gris
+  - Y.V. Grishkevich
+  - J.-F. Grivaz
+  - E. Gross
+  - J. Grosse-Knetter
+  - J. Groth-Jensen
+  - K. Grybel
+  - D. Guest
+  - C. Guicheney
+  - S. Guindon
+  - U. Gul
+  - J. Gunther
+  - B. Guo
+  - J. Guo
+  - P. Gutierrez
+  - N. Guttman
+  - O. Gutzwiller
+  - C. Guyot
+  - C. Gwenlan
+  - C.B. Gwilliam
+  - A. Haas
+  - S. Haas
+  - C. Haber
+  - H.K. Hadavand
+  - D.R. Hadley
+  - P. Haefner
+  - Z. Hajduk
+  - H. Hakobyan
+  - D. Hall
+  - K. Hamacher
+  - P. Hamal
+  - K. Hamano
+  - M. Hamer
+  - A. Hamilton
+  - S. Hamilton
+  - L. Han
+  - K. Hanagaki
+  - K. Hanawa
+  - M. Hance
+  - C. Handel
+  - P. Hanke
+  - J.R. Hansen
+  - J.B. Hansen
+  - J.D. Hansen
+  - P.H. Hansen
+  - P. Hansson
+  - K. Hara
+  - T. Harenberg
+  - S. Harkusha
+  - D. Harper
+  - R.D. Harrington
+  - O.M. Harris
+  - J. Hartert
+  - F. Hartjes
+  - A. Harvey
+  - S. Hasegawa
+  - Y. Hasegawa
+  - S. Hassani
+  - S. Haug
+  - M. Hauschild
+  - R. Hauser
+  - M. Havranek
+  - C.M. Hawkes
+  - R.J. Hawkings
+  - A.D. Hawkins
+  - T. Hayakawa
+  - T. Hayashi
+  - D. Hayden
+  - C.P. Hays
+  - H.S. Hayward
+  - S.J. Haywood
+  - S.J. Head
+  - V. Hedberg
+  - L. Heelan
+  - S. Heim
+  - B. Heinemann
+  - S. Heisterkamp
+  - L. Helary
+  - C. Heller
+  - M. Heller
+  - S. Hellman
+  - D. Hellmich
+  - C. Helsens
+  - R.C.W. Henderson
+  - M. Henke
+  - A. Henrichs
+  - A.M. Henriques Correia
+  - S. Henrot-Versille
+  - C. Hensel
+  - C.M. Hernandez
+  - "Y. Hern\xE1ndez Jim\xE9nez"
+  - R. Herrberg
+  - G. Herten
+  - R. Hertenberger
+  - L. Hervas
+  - G.G. Hesketh
+  - N.P. Hessey
+  - "E. Hig\xF3n-Rodriguez"
+  - J.C. Hill
+  - K.H. Hiller
+  - S. Hillert
+  - S.J. Hillier
+  - I. Hinchliffe
+  - E. Hines
+  - M. Hirose
+  - F. Hirsch
+  - D. Hirschbuehl
+  - J. Hobbs
+  - N. Hod
+  - M.C. Hodgkinson
+  - P. Hodgson
+  - A. Hoecker
+  - M.R. Hoeferkamp
+  - J. Hoffman
+  - D. Hoffmann
+  - M. Hohlfeld
+  - T. Holy
+  - J.L. Holzbauer
+  - T.M. Hong
+  - L. Hooft van Huysduynen
+  - J-Y. Hostachy
+  - S. Hou
+  - A. Hoummada
+  - J. Howard
+  - J. Howarth
+  - I. Hristova
+  - J. Hrivnac
+  - "T. Hryn\u02BCova"
+  - P.J. Hsu
+  - S.-C. Hsu
+  - D. Hu
+  - Z. Hubacek
+  - F. Hubaut
+  - F. Huegging
+  - A. Huettmann
+  - T.B. Huffman
+  - E.W. Hughes
+  - G. Hughes
+  - M. Huhtinen
+  - M. Hurwitz
+  - N. Huseynov
+  - J. Huston
+  - J. Huth
+  - G. Iacobucci
+  - G. Iakovidis
+  - I. Ibragimov
+  - L. Iconomidou-Fayard
+  - J. Idarraga
+  - P. Iengo
+  - O. Igonkina
+  - Y. Ikegami
+  - M. Ikeno
+  - D. Iliadis
+  - N. Ilic
+  - T. Ince
+  - P. Ioannou
+  - M. Iodice
+  - K. Iordanidou
+  - V. Ippolito
+  - A. Irles Quiles
+  - C. Isaksson
+  - M. Ishino
+  - M. Ishitsuka
+  - R. Ishmukhametov
+  - C. Issever
+  - S. Istin
+  - A.V. Ivashin
+  - W. Iwanski
+  - H. Iwasaki
+  - J.M. Izen
+  - V. Izzo
+  - B. Jackson
+  - J.N. Jackson
+  - P. Jackson
+  - M.R. Jaekel
+  - V. Jain
+  - K. Jakobs
+  - S. Jakobsen
+  - T. Jakoubek
+  - J. Jakubek
+  - D.O. Jamin
+  - D.K. Jana
+  - E. Jansen
+  - H. Jansen
+  - J. Janssen
+  - A. Jantsch
+  - M. Janus
+  - G. Jarlskog
+  - L. Jeanty
+  - I. Jen-La Plante
+  - D. Jennens
+  - P. Jenni
+  - A.E. Loevschall-Jensen
+  - "P. Je\u017E"
+  - "S. J\xE9z\xE9quel"
+  - M.K. Jha
+  - H. Ji
+  - W. Ji
+  - J. Jia
+  - Y. Jiang
+  - M. Jimenez Belenguer
+  - S. Jin
+  - O. Jinnouchi
+  - M.D. Joergensen
+  - D. Joffe
+  - M. Johansen
+  - K.E. Johansson
+  - P. Johansson
+  - S. Johnert
+  - K.A. Johns
+  - K. Jon-And
+  - G. Jones
+  - R.W.L. Jones
+  - T.J. Jones
+  - P.M. Jorge
+  - K.D. Joshi
+  - J. Jovicevic
+  - T. Jovin
+  - X. Ju
+  - C.A. Jung
+  - R.M. Jungst
+  - P. Jussel
+  - A. Juste Rozas
+  - M. Kaci
+  - A. Kaczmarska
+  - P. Kadlecik
+  - M. Kado
+  - H. Kagan
+  - M. Kagan
+  - E. Kajomovitz
+  - S. Kalinin
+  - S. Kama
+  - N. Kanaya
+  - M. Kaneda
+  - S. Kaneti
+  - T. Kanno
+  - V.A. Kantserov
+  - J. Kanzaki
+  - B. Kaplan
+  - A. Kapliy
+  - J. Kaplon
+  - D. Kar
+  - K. Karakostas
+  - M. Karnevskiy
+  - V. Kartvelishvili
+  - A.N. Karyukhin
+  - L. Kashif
+  - G. Kasieczka
+  - R.D. Kass
+  - A. Kastanas
+  - M. Kataoka
+  - Y. Kataoka
+  - E. Katsoufis
+  - J. Katzy
+  - V. Kaushik
+  - K. Kawagoe
+  - T. Kawamoto
+  - G. Kawamura
+  - S. Kazama
+  - V.A. Kazanin
+  - M.Y. Kazarinov
+  - R. Keeler
+  - R. Kehoe
+  - M. Keil
+  - G.D. Kekelidze
+  - J.S. Keller
+  - O. Kepka
+  - N. Kerschen
+  - "B.P. Ker\u0161evan"
+  - S. Kersten
+  - K. Kessoku
+  - J. Keung
+  - F. Khalil-zada
+  - H. Khandanyan
+  - A. Khanov
+  - D. Kharchenko
+  - A. Khodinov
+  - A. Khomich
+  - T.J. Khoo
+  - G. Khoriauli
+  - A. Khoroshilov
+  - V. Khovanskiy
+  - E. Khramov
+  - J. Khubua
+  - H. Kim
+  - S.H. Kim
+  - N. Kimura
+  - O. Kind
+  - B.T. King
+  - M. King
+  - R.S.B. King
+  - J. Kirk
+  - A.E. Kiryunin
+  - T. Kishimoto
+  - D. Kisielewska
+  - T. Kitamura
+  - T. Kittelmann
+  - K. Kiuchi
+  - E. Kladiva
+  - M. Klein
+  - U. Klein
+  - K. Kleinknecht
+  - M. Klemetti
+  - A. Klier
+  - P. Klimek
+  - A. Klimentov
+  - R. Klingenberg
+  - J.A. Klinger
+  - E.B. Klinkby
+  - T. Klioutchnikova
+  - P.F. Klok
+  - E.-E. Kluge
+  - T. Kluge
+  - P. Kluit
+  - S. Kluth
+  - E. Kneringer
+  - E.B.F.G. Knoops
+  - A. Knue
+  - T. Kobayashi
+  - M. Kobel
+  - M. Kocian
+  - P. Kodys
+  - "K. K\xF6neke"
+  - "A.C. K\xF6nig"
+  - S. Koenig
+  - "L. K\xF6pke"
+  - F. Koetsveld
+  - P. Koevesarki
+  - T. Koffas
+  - E. Koffeman
+  - L.A. Kogan
+  - S. Kohlmann
+  - F. Kohn
+  - Z. Kohout
+  - T. Kohriki
+  - T. Koi
+  - H. Kolanoski
+  - V. Kolesnikov
+  - I. Koletsou
+  - J. Koll
+  - A.A. Komar
+  - Y. Komori
+  - T. Kondo
+  - T. Kono
+  - R. Konoplich
+  - N. Konstantinidis
+  - R. Kopeliansky
+  - S. Koperny
+  - K. Korcyl
+  - K. Kordas
+  - A. Korn
+  - A. Korol
+  - I. Korolkov
+  - E.V. Korolkova
+  - V.A. Korotkov
+  - O. Kortner
+  - S. Kortner
+  - V.V. Kostyukhin
+  - S. Kotov
+  - V.M. Kotov
+  - A. Kotwal
+  - C. Kourkoumelis
+  - V. Kouskoura
+  - A. Koutsman
+  - R. Kowalewski
+  - T.Z. Kowalski
+  - W. Kozanecki
+  - A.S. Kozhin
+  - V. Kral
+  - V.A. Kramarenko
+  - G. Kramberger
+  - M.W. Krasny
+  - A. Krasznahorkay
+  - J.K. Kraus
+  - S. Kreiss
+  - F. Krejci
+  - J. Kretzschmar
+  - N. Krieger
+  - P. Krieger
+  - K. Kroeninger
+  - H. Kroha
+  - J. Kroll
+  - J. Kroseberg
+  - J. Krstic
+  - U. Kruchonak
+  - "H. Kr\xFCger"
+  - T. Kruker
+  - N. Krumnack
+  - Z.V. Krumshteyn
+  - M.K. Kruse
+  - T. Kubota
+  - S. Kuday
+  - S. Kuehn
+  - A. Kugel
+  - T. Kuhl
+  - D. Kuhn
+  - V. Kukhtin
+  - Y. Kulchitsky
+  - S. Kuleshov
+  - M. Kuna
+  - J. Kunkle
+  - A. Kupco
+  - H. Kurashige
+  - M. Kurata
+  - Y.A. Kurochkin
+  - V. Kus
+  - E.S. Kuwertz
+  - M. Kuze
+  - J. Kvita
+  - R. Kwee
+  - A. La Rosa
+  - L. La Rotonda
+  - S. Lablak
+  - C. Lacasta
+  - F. Lacava
+  - J. Lacey
+  - H. Lacker
+  - D. Lacour
+  - V.R. Lacuesta
+  - E. Ladygin
+  - R. Lafaye
+  - B. Laforge
+  - T. Lagouri
+  - S. Lai
+  - E. Laisne
+  - L. Lambourne
+  - C.L. Lampen
+  - W. Lampl
+  - E. Lancon
+  - U. Landgraf
+  - M.P.J. Landon
+  - V.S. Lang
+  - C. Lange
+  - A.J. Lankford
+  - F. Lanni
+  - K. Lantzsch
+  - S. Laplace
+  - C. Lapoire
+  - J.F. Laporte
+  - T. Lari
+  - A. Larner
+  - M. Lassnig
+  - P. Laurelli
+  - V. Lavorini
+  - W. Lavrijsen
+  - P. Laycock
+  - O. Le Dortz
+  - E. Le Guirriec
+  - E. Le Menedeu
+  - T. LeCompte
+  - F. Ledroit-Guillon
+  - H. Lee
+  - J.S.H. Lee
+  - S.C. Lee
+  - L. Lee
+  - M. Lefebvre
+  - M. Legendre
+  - F. Legger
+  - C. Leggett
+  - M. Lehmacher
+  - G. Lehmann Miotto
+  - M.A.L. Leite
+  - R. Leitner
+  - D. Lellouch
+  - B. Lemmer
+  - V. Lendermann
+  - K.J.C. Leney
+  - T. Lenz
+  - B. Lenzi
+  - K. Leonhardt
+  - S. Leontsinis
+  - F. Lepold
+  - C. Leroy
+  - J-R. Lessard
+  - C.G. Lester
+  - C.M. Lester
+  - "J. Lev\xEAque"
+  - D. Levin
+  - L.J. Levinson
+  - A. Lewis
+  - G.H. Lewis
+  - A.M. Leyko
+  - M. Leyton
+  - B. Li
+  - H. Li
+  - H.L. Li
+  - S. Li
+  - X. Li
+  - Z. Liang
+  - H. Liao
+  - B. Liberti
+  - P. Lichard
+  - K. Lie
+  - W. Liebig
+  - C. Limbach
+  - A. Limosani
+  - M. Limper
+  - S.C. Lin
+  - F. Linde
+  - J.T. Linnemann
+  - E. Lipeles
+  - A. Lipniacka
+  - T.M. Liss
+  - A. Lister
+  - A.M. Litke
+  - C. Liu
+  - D. Liu
+  - H. Liu
+  - J.B. Liu
+  - L. Liu
+  - M. Liu
+  - Y. Liu
+  - M. Livan
+  - S.S.A. Livermore
+  - A. Lleres
+  - J. Llorente Merino
+  - S.L. Lloyd
+  - E. Lobodzinska
+  - P. Loch
+  - W.S. Lockman
+  - T. Loddenkoetter
+  - F.K. Loebinger
+  - A. Loginov
+  - C.W. Loh
+  - T. Lohse
+  - K. Lohwasser
+  - M. Lokajicek
+  - V.P. Lombardo
+  - R.E. Long
+  - L. Lopes
+  - D. Lopez Mateos
+  - J. Lorenz
+  - N. Lorenzo Martinez
+  - M. Losada
+  - P. Loscutoff
+  - F. Lo Sterzo
+  - X. Lou
+  - A. Lounis
+  - K.F. Loureiro
+  - J. Love
+  - P.A. Love
+  - A.J. Lowe
+  - F. Lu
+  - H.J. Lubatti
+  - C. Luci
+  - A. Lucotte
+  - A. Ludwig
+  - D. Ludwig
+  - I. Ludwig
+  - F. Luehring
+  - W. Lukas
+  - L. Luminari
+  - E. Lund
+  - B. Lund-Jensen
+  - B. Lundberg
+  - J. Lundberg
+  - O. Lundberg
+  - J. Lundquist
+  - M. Lungwitz
+  - D. Lynn
+  - E. Lytken
+  - H. Ma
+  - L.L. Ma
+  - G. Maccarrone
+  - A. Macchiolo
+  - "B. Ma\u010Dek"
+  - J. Machado Miguens
+  - D. Macina
+  - R.J. Madaras
+  - H.J. Maddocks
+  - W.F. Mader
+  - R. Maenner
+  - T. Maeno
+  - "P. M\xE4ttig"
+  - "S. M\xE4ttig"
+  - L. Magnoni
+  - E. Magradze
+  - K. Mahboubi
+  - J. Mahlstedt
+  - S. Mahmoud
+  - C. Maiani
+  - C. Maidantchik
+  - A. Maio
+  - S. Majewski
+  - Y. Makida
+  - N. Makovec
+  - P. Mal
+  - B. Malaescu
+  - Pa. Malecki
+  - V.P. Maleev
+  - F. Malek
+  - U. Mallik
+  - D. Malon
+  - C. Malone
+  - S. Maltezos
+  - V. Malyshev
+  - S. Malyukov
+  - J. Mamuzic
+  - L. Mandelli
+  - "I. Mandi\u0107"
+  - R. Mandrysch
+  - J. Maneira
+  - A. Manfredini
+  - L. Manhaes de Andrade Filho
+  - J.A. Manjarres Ramos
+  - A. Mann
+  - P.M. Manning
+  - A. Manousakis-Katsikakis
+  - B. Mansoulie
+  - A. Mapelli
+  - L. Mapelli
+  - L. March
+  - J.F. Marchand
+  - F. Marchese
+  - G. Marchiori
+  - M. Marcisovsky
+  - C.P. Marino
+  - F. Marroquim
+  - Z. Marshall
+  - L.F. Marti
+  - S. Marti-Garcia
+  - B. Martin
+  - B. Martin
+  - T.A. Martin
+  - V.J. Martin
+  - B. Martin dit Latour
+  - S. Martin-Haugh
+  - M. Martinez
+  - V. Martinez Outschoorn
+  - A.C. Martyniuk
+  - M. Marx
+  - F. Marzano
+  - A. Marzin
+  - L. Masetti
+  - T. Mashimo
+  - R. Mashinistov
+  - J. Masik
+  - A.L. Maslennikov
+  - I. Massa
+  - N. Massol
+  - P. Mastrandrea
+  - A. Mastroberardino
+  - T. Masubuchi
+  - P. Matricon
+  - H. Matsunaga
+  - T. Matsushita
+  - C. Mattravers
+  - J. Maurer
+  - S.J. Maxfield
+  - A. Mayne
+  - R. Mazini
+  - M. Mazur
+  - L. Mazzaferro
+  - S.P. Mc Kee
+  - A. McCarn
+  - R.L. McCarthy
+  - T.G. McCarthy
+  - N.A. McCubbin
+  - J.A. Mcfayden
+  - G. Mchedlidze
+  - T. Mclaughlan
+  - S.J. McMahon
+  - R.A. McPherson
+  - A. Meade
+  - J. Mechnich
+  - M. Mechtel
+  - M. Medinnis
+  - R. Meera-Lebbai
+  - T. Meguro
+  - S. Mehlhase
+  - A. Mehta
+  - K. Meier
+  - B. Meirose
+  - C. Melachrinos
+  - B.R. Mellado Garcia
+  - F. Meloni
+  - L. Mendoza Navas
+  - Z. Meng
+  - A. Mengarelli
+  - S. Menke
+  - E. Meoni
+  - K.M. Mercurio
+  - P. Mermod
+  - L. Merola
+  - C. Meroni
+  - F.S. Merritt
+  - H. Merritt
+  - A. Messina
+  - J. Metcalfe
+  - A.S. Mete
+  - C. Meyer
+  - C. Meyer
+  - J-P. Meyer
+  - J. Meyer
+  - J. Meyer
+  - S. Michal
+  - R.P. Middleton
+  - S. Migas
+  - "L. Mijovi\u0107"
+  - G. Mikenberg
+  - M. Mikestikova
+  - "M. Miku\u017E"
+  - D.W. Miller
+  - W.J. Mills
+  - C. Mills
+  - A. Milov
+  - D.A. Milstead
+  - D. Milstein
+  - A.A. Minaenko
+  - "M. Mi\xF1ano Moya"
+  - I.A. Minashvili
+  - A.I. Mincer
+  - B. Mindur
+  - M. Mineev
+  - Y. Ming
+  - L.M. Mir
+  - J. Mitrevski
+  - V.A. Mitsou
+  - S. Mitsui
+  - P.S. Miyagawa
+  - "J.U. Mj\xF6rnmark"
+  - T. Moa
+  - V. Moeller
+  - "K. M\xF6nig"
+  - "N. M\xF6ser"
+  - S. Mohapatra
+  - R. Moles-Valls
+  - A. Molfetas
+  - J. Monk
+  - E. Monnier
+  - J. Montejo Berlingen
+  - F. Monticelli
+  - S. Monzani
+  - R.W. Moore
+  - C. Mora Herrera
+  - A. Moraes
+  - N. Morange
+  - J. Morel
+  - G. Morello
+  - D. Moreno
+  - "M. Moreno Ll\xE1cer"
+  - P. Morettini
+  - M. Morgenstern
+  - M. Morii
+  - A.K. Morley
+  - G. Mornacchi
+  - J.D. Morris
+  - L. Morvaj
+  - H.G. Moser
+  - M. Mosidze
+  - J. Moss
+  - R. Mount
+  - E. Mountricha
+  - E.J.W. Moyse
+  - F. Mueller
+  - J. Mueller
+  - K. Mueller
+  - "T.A. M\xFCller"
+  - T. Mueller
+  - D. Muenstermann
+  - Y. Munwes
+  - W.J. Murray
+  - I. Mussche
+  - E. Musto
+  - A.G. Myagkov
+  - M. Myska
+  - O. Nackenhorst
+  - J. Nadal
+  - K. Nagai
+  - R. Nagai
+  - K. Nagano
+  - A. Nagarkar
+  - Y. Nagasaka
+  - M. Nagel
+  - A.M. Nairz
+  - Y. Nakahama
+  - K. Nakamura
+  - T. Nakamura
+  - I. Nakano
+  - G. Nanava
+  - A. Napier
+  - R. Narayan
+  - M. Nash
+  - T. Nattermann
+  - T. Naumann
+  - G. Navarro
+  - H.A. Neal
+  - P.Yu. Nechaeva
+  - T.J. Neep
+  - A. Negri
+  - G. Negri
+  - M. Negrini
+  - S. Nektarijevic
+  - A. Nelson
+  - T.K. Nelson
+  - S. Nemecek
+  - P. Nemethy
+  - A.A. Nepomuceno
+  - M. Nessi
+  - M.S. Neubauer
+  - M. Neumann
+  - A. Neusiedl
+  - R.M. Neves
+  - P. Nevski
+  - P.R. Newman
+  - V. Nguyen Thi Hong
+  - R.B. Nickerson
+  - R. Nicolaidou
+  - F. Niedercorn
+  - J. Nielsen
+  - N. Nikiforou
+  - A. Nikiforov
+  - V. Nikolaenko
+  - I. Nikolic-Audit
+  - K. Nikolics
+  - K. Nikolopoulos
+  - P. Nilsson
+  - Y. Ninomiya
+  - A. Nisati
+  - R. Nisius
+  - T. Nobe
+  - L. Nodulman
+  - M. Nomachi
+  - I. Nomidis
+  - S. Norberg
+  - M. Nordberg
+  - J. Novakova
+  - M. Nozaki
+  - L. Nozka
+  - I.M. Nugent
+  - A.-E. Nuncio-Quiroz
+  - G. Nunes Hanninger
+  - T. Nunnemann
+  - E. Nurse
+  - "B.J. O\u02BCBrien"
+  - "D.C. O\u02BCNeil"
+  - "V. O\u02BCShea"
+  - L.B. Oakes
+  - F.G. Oakham
+  - H. Oberlack
+  - J. Ocariz
+  - A. Ochi
+  - S. Oda
+  - S. Odaka
+  - J. Odier
+  - H. Ogren
+  - A. Oh
+  - S.H. Oh
+  - C.C. Ohm
+  - T. Ohshima
+  - W. Okamura
+  - H. Okawa
+  - Y. Okumura
+  - T. Okuyama
+  - A. Olariu
+  - S.A. Olivares Pino
+  - M. Oliveira
+  - D. Oliveira Damazio
+  - E. Oliver Garcia
+  - D. Olivito
+  - A. Olszewski
+  - J. Olszowska
+  - A. Onofre
+  - P.U.E. Onyisi
+  - M.J. Oreglia
+  - Y. Oren
+  - D. Orestano
+  - N. Orlando
+  - I. Orlov
+  - C. Oropeza Barrera
+  - R.S. Orr
+  - B. Osculati
+  - R. Ospanov
+  - C. Osuna
+  - G. Otero y Garzon
+  - J.P. Ottersbach
+  - M. Ouchrif
+  - E.A. Ouellette
+  - F. Ould-Saada
+  - A. Ouraou
+  - Q. Ouyang
+  - A. Ovcharova
+  - M. Owen
+  - S. Owen
+  - V.E. Ozcan
+  - N. Ozturk
+  - A. Pacheco Pages
+  - C. Padilla Aranda
+  - S. Pagan Griso
+  - E. Paganis
+  - C. Pahl
+  - F. Paige
+  - P. Pais
+  - K. Pajchel
+  - G. Palacino
+  - C.P. Paleari
+  - S. Palestini
+  - D. Pallin
+  - A. Palma
+  - J.D. Palmer
+  - Y.B. Pan
+  - E. Panagiotopoulou
+  - J.G. Panduro Vazquez
+  - P. Pani
+  - N. Panikashvili
+  - S. Panitkin
+  - D. Pantea
+  - A. Papadelis
+  - Th.D. Papadopoulou
+  - A. Paramonov
+  - D. Paredes Hernandez
+  - W. Park
+  - M.A. Parker
+  - F. Parodi
+  - J.A. Parsons
+  - U. Parzefall
+  - S. Pashapour
+  - E. Pasqualucci
+  - S. Passaggio
+  - Fr. Pastore
+  - "G. P\xE1sztor"
+  - S. Pataraia
+  - N. Patel
+  - J.R. Pater
+  - S. Patricelli
+  - T. Pauly
+  - M. Pecsy
+  - S. Pedraza Lopez
+  - M.I. Pedraza Morales
+  - S.V. Peleganchuk
+  - D. Pelikan
+  - H. Peng
+  - B. Penning
+  - A. Penson
+  - J. Penwell
+  - M. Perantoni
+  - T. Perez Cavalcanti
+  - E. Perez Codina
+  - "M.T. P\xE9rez Garc\xEDa-Esta\xF1"
+  - L. Perini
+  - H. Pernegger
+  - V.D. Peshekhonov
+  - K. Peters
+  - B.A. Petersen
+  - T.C. Petersen
+  - E. Petit
+  - A. Petridis
+  - C. Petridou
+  - E. Petrolo
+  - F. Petrucci
+  - D. Petschull
+  - M. Petteni
+  - R. Pezoa
+  - A. Phan
+  - P.W. Phillips
+  - G. Piacquadio
+  - A. Picazio
+  - E. Piccaro
+  - M. Piccinini
+  - S.M. Piec
+  - R. Piegaia
+  - D.T. Pignotti
+  - J.E. Pilcher
+  - A.D. Pilkington
+  - J. Pina
+  - M. Pinamonti
+  - A. Pinder
+  - J.L. Pinfold
+  - B. Pinto
+  - C. Pizio
+  - M. Plamondon
+  - M.-A. Pleier
+  - E. Plotnikova
+  - A. Poblaguev
+  - S. Poddar
+  - F. Podlyski
+  - L. Poggioli
+  - D. Pohl
+  - M. Pohl
+  - G. Polesello
+  - A. Policicchio
+  - A. Polini
+  - J. Poll
+  - V. Polychronakos
+  - D. Pomeroy
+  - "K. Pomm\xE8s"
+  - L. Pontecorvo
+  - B.G. Pope
+  - G.A. Popeneciu
+  - D.S. Popovic
+  - A. Poppleton
+  - X. Portell Bueso
+  - G.E. Pospelov
+  - S. Pospisil
+  - I.N. Potrap
+  - C.J. Potter
+  - C.T. Potter
+  - G. Poulard
+  - J. Poveda
+  - V. Pozdnyakov
+  - R. Prabhu
+  - P. Pralavorio
+  - A. Pranko
+  - S. Prasad
+  - R. Pravahan
+  - S. Prell
+  - D. Price
+  - J. Price
+  - L.E. Price
+  - D. Prieur
+  - M. Primavera
+  - K. Prokofiev
+  - F. Prokoshin
+  - S. Protopopescu
+  - J. Proudfoot
+  - X. Prudent
+  - M. Przybycien
+  - H. Przysiezniak
+  - S. Psoroulas
+  - E. Ptacek
+  - E. Pueschel
+  - J. Purdham
+  - M. Purohit
+  - P. Puzo
+  - Y. Pylypchenko
+  - J. Qian
+  - A. Quadt
+  - D.R. Quarrie
+  - W.B. Quayle
+  - F. Quinonez
+  - M. Raas
+  - V. Radescu
+  - P. Radloff
+  - T. Rador
+  - F. Ragusa
+  - G. Rahal
+  - S. Rajagopalan
+  - M. Rammensee
+  - M. Rammes
+  - A.S. Randle-Conde
+  - K. Randrianarivony
+  - F. Rauscher
+  - T.C. Rave
+  - M. Raymond
+  - A.L. Read
+  - D.M. Rebuzzi
+  - A. Redelbach
+  - G. Redlinger
+  - R. Reece
+  - K. Reeves
+  - A. Reinsch
+  - I. Reisinger
+  - C. Rembser
+  - A. Renaud
+  - M. Rescigno
+  - S. Resconi
+  - B. Resende
+  - P. Reznicek
+  - R. Rezvani
+  - R. Richter
+  - E. Richter-Was
+  - M. Ridel
+  - M. Rijssenbeek
+  - A. Rimoldi
+  - L. Rinaldi
+  - R.R. Rios
+  - I. Riu
+  - F. Rizatdinova
+  - E. Rizvi
+  - S.H. Robertson
+  - A. Robichaud-Veronneau
+  - D. Robinson
+  - J.E.M. Robinson
+  - A. Robson
+  - J.G. Rocha de Lima
+  - C. Roda
+  - D. Roda Dos Santos
+  - A. Roe
+  - S. Roe
+  - "O. R\xF8hne"
+  - A. Romaniouk
+  - M. Romano
+  - G. Romeo
+  - E. Romero Adam
+  - N. Rompotis
+  - L. Roos
+  - E. Ros
+  - S. Rosati
+  - K. Rosbach
+  - A. Rose
+  - M. Rose
+  - G.A. Rosenbaum
+  - P.L. Rosendahl
+  - O. Rosenthal
+  - V. Rossetti
+  - E. Rossi
+  - L.P. Rossi
+  - M. Rotaru
+  - I. Roth
+  - J. Rothberg
+  - D. Rousseau
+  - C.R. Royon
+  - A. Rozanov
+  - Y. Rozen
+  - X. Ruan
+  - F. Rubbo
+  - I. Rubinskiy
+  - N. Ruckstuhl
+  - V.I. Rud
+  - C. Rudolph
+  - G. Rudolph
+  - "F. R\xFChr"
+  - A. Ruiz-Martinez
+  - Z. Rurikova
+  - N.A. Rusakovich
+  - J.P. Rutherfoord
+  - P. Ruzicka
+  - Y.F. Ryabov
+  - M. Rybar
+  - G. Rybkin
+  - N.C. Ryder
+  - A.F. Saavedra
+  - I. Sadeh
+  - H.F-W. Sadrozinski
+  - R. Sadykov
+  - F. Safai Tehrani
+  - H. Sakamoto
+  - G. Salamanna
+  - A. Salamon
+  - M. Saleem
+  - D. Salek
+  - D. Salihagic
+  - A. Salnikov
+  - J. Salt
+  - B.M. Salvachua Ferrando
+  - D. Salvatore
+  - F. Salvatore
+  - A. Salvucci
+  - A. Salzburger
+  - D. Sampsonidis
+  - A. Sanchez
+  - V. Sanchez Martinez
+  - H. Sandaker
+  - H.G. Sander
+  - M.P. Sanders
+  - M. Sandhoff
+  - T. Sandoval
+  - C. Sandoval
+  - R. Sandstroem
+  - D.P.C. Sankey
+  - A. Sansoni
+  - C. Santoni
+  - R. Santonico
+  - H. Santos
+  - I. Santoyo Castillo
+  - J.G. Saraiva
+  - T. Sarangi
+  - E. Sarkisyan-Grinbaum
+  - G. Sartisohn
+  - O. Sasaki
+  - Y. Sasaki
+  - I. Satsounkevitch
+  - E. Sauvan
+  - J.B. Sauvan
+  - P. Savard
+  - V. Savinov
+  - D.O. Savu
+  - L. Sawyer
+  - J. Saxon
+  - C. Sbarra
+  - A. Sbrizzi
+  - D.A. Scannicchio
+  - M. Scarcella
+  - J. Schaarschmidt
+  - P. Schacht
+  - D. Schaefer
+  - "U. Sch\xE4fer"
+  - A. Schaelicke
+  - S. Schaepe
+  - S. Schaetzel
+  - A.C. Schaffer
+  - D. Schaile
+  - R.D. Schamberger
+  - A.G. Schamov
+  - V. Scharf
+  - V.A. Schegelsky
+  - D. Scheirich
+  - M. Schernau
+  - M.I. Scherzer
+  - C. Schiavi
+  - J. Schieck
+  - M. Schioppa
+  - S. Schlenker
+  - E. Schmidt
+  - K. Schmieden
+  - C. Schmitt
+  - S. Schmitt
+  - B. Schneider
+  - U. Schnoor
+  - L. Schoeffel
+  - A. Schoening
+  - A.L.S. Schorlemmer
+  - M. Schott
+  - D. Schouten
+  - J. Schovancova
+  - C. Schroeder
+  - N. Schroer
+  - M.J. Schultens
+  - H.-C. Schultz-Coulon
+  - H. Schulz
+  - M. Schumacher
+  - B.A. Schumm
+  - Ph. Schune
+  - C. Schwanenberger
+  - A. Schwartzman
+  - Ph. Schwegler
+  - Ph. Schwemling
+  - R. Schwienhorst
+  - J. Schwindling
+  - T. Schwindt
+  - M. Schwoerer
+  - F.G. Sciacca
+  - G. Sciolla
+  - W.G. Scott
+  - J. Searcy
+  - G. Sedov
+  - E. Sedykh
+  - S.C. Seidel
+  - A. Seiden
+  - F. Seifert
+  - J.M. Seixas
+  - G. Sekhniaidze
+  - S.J. Sekula
+  - K.E. Selbach
+  - D.M. Seliverstov
+  - G. Sellers
+  - N. Semprini-Cesari
+  - C. Serfon
+  - L. Serin
+  - L. Serkin
+  - R. Seuster
+  - H. Severini
+  - A. Sfyrla
+  - E. Shabalina
+  - M. Shamim
+  - L.Y. Shan
+  - J.T. Shank
+  - Q.T. Shao
+  - M. Shapiro
+  - P.B. Shatalov
+  - K. Shaw
+  - D. Sherman
+  - P. Sherwood
+  - S. Shimizu
+  - M. Shimojima
+  - T. Shin
+  - M. Shiyakova
+  - A. Shmeleva
+  - M.J. Shochet
+  - D. Short
+  - S. Shrestha
+  - E. Shulga
+  - M.A. Shupe
+  - P. Sicho
+  - A. Sidoti
+  - F. Siegert
+  - Dj. Sijacki
+  - O. Silbert
+  - J. Silva
+  - Y. Silver
+  - D. Silverstein
+  - S.B. Silverstein
+  - V. Simak
+  - O. Simard
+  - Lj. Simic
+  - S. Simion
+  - E. Simioni
+  - B. Simmons
+  - R. Simoniello
+  - M. Simonyan
+  - P. Sinervo
+  - N.B. Sinev
+  - V. Sipica
+  - G. Siragusa
+  - A. Sircar
+  - S.Yu. Sivoklokov
+  - "J. Sj\xF6lin"
+  - T.B. Sjursen
+  - L.A. Skinnari
+  - H.P. Skottowe
+  - K. Skovpen
+  - P. Skubic
+  - M. Slater
+  - T. Slavicek
+  - K. Sliwa
+  - V. Smakhtin
+  - B.H. Smart
+  - L. Smestad
+  - S.Yu. Smirnov
+  - Y. Smirnov
+  - L.N. Smirnova
+  - O. Smirnova
+  - B.C. Smith
+  - D. Smith
+  - M. Smizanska
+  - K. Smolek
+  - A.A. Snesarev
+  - J. Snow
+  - S. Snyder
+  - R. Sobie
+  - A. Soffer
+  - C.A. Solans
+  - M. Solar
+  - J. Solc
+  - E.Yu. Soldatov
+  - U. Soldevila
+  - E. Solfaroli Camillocci
+  - A.A. Solodkov
+  - O.V. Solovyanov
+  - V. Solovyev
+  - N. Soni
+  - V. Sopko
+  - B. Sopko
+  - M. Sosebee
+  - R. Soualah
+  - A. Soukharev
+  - S. Spagnolo
+  - "F. Span\xF2"
+  - R. Spighi
+  - G. Spigo
+  - R. Spiwoks
+  - M. Spousta
+  - T. Spreitzer
+  - R.D. St. Denis
+  - J. Stahlman
+  - R. Stamen
+  - E. Stanecka
+  - R.W. Stanek
+  - C. Stanescu
+  - M. Stanescu-Bellu
+  - M.M. Stanitzki
+  - S. Stapnes
+  - E.A. Starchenko
+  - J. Stark
+  - P. Staroba
+  - P. Starovoitov
+  - R. Staszewski
+  - G. Steele
+  - P. Steinbach
+  - P. Steinberg
+  - B. Stelzer
+  - H.J. Stelzer
+  - O. Stelzer-Chilton
+  - H. Stenzel
+  - S. Stern
+  - G.A. Stewart
+  - J.A. Stillings
+  - M.C. Stockton
+  - K. Stoerig
+  - G. Stoicea
+  - S. Stonjek
+  - P. Strachota
+  - A.R. Stradling
+  - A. Straessner
+  - J. Strandberg
+  - S. Strandberg
+  - A. Strandlie
+  - M. Strang
+  - E. Strauss
+  - M. Strauss
+  - P. Strizenec
+  - "R. Str\xF6hmer"
+  - D.M. Strom
+  - R. Stroynowski
+  - B. Stugu
+  - J. Stupak
+  - P. Sturm
+  - N.A. Styles
+  - D.A. Soh
+  - D. Su
+  - HS. Subramania
+  - R. Subramaniam
+  - A. Succurro
+  - Y. Sugaya
+  - C. Suhr
+  - M. Suk
+  - V.V. Sulin
+  - S. Sultansoy
+  - T. Sumida
+  - X. Sun
+  - J.E. Sundermann
+  - K. Suruliz
+  - G. Susinno
+  - M.R. Sutton
+  - Y. Suzuki
+  - Y. Suzuki
+  - M. Svatos
+  - S. Swedish
+  - I. Sykora
+  - T. Sykora
+  - "J. S\xE1nchez"
+  - D. Ta
+  - K. Tackmann
+  - A. Taffard
+  - R. Tafirout
+  - N. Taiblum
+  - Y. Takahashi
+  - H. Takai
+  - R. Takashima
+  - H. Takeda
+  - T. Takeshita
+  - Y. Takubo
+  - M. Talby
+  - A. Talyshev
+  - M.C. Tamsett
+  - K.G. Tan
+  - J. Tanaka
+  - R. Tanaka
+  - S. Tanaka
+  - A.J. Tanasijczuk
+  - K. Tani
+  - N. Tannoury
+  - S. Tapprogge
+  - D. Tardif
+  - S. Tarem
+  - F. Tarrade
+  - G.F. Tartarelli
+  - P. Tas
+  - M. Tasevsky
+  - E. Tassi
+  - Y. Tayalati
+  - C. Taylor
+  - F.E. Taylor
+  - G.N. Taylor
+  - W. Taylor
+  - M. Teinturier
+  - F.A. Teischinger
+  - M. Teixeira Dias Castanheira
+  - P. Teixeira-Dias
+  - K.K. Temming
+  - H. Ten Kate
+  - P.K. Teng
+  - S. Terada
+  - K. Terashi
+  - J. Terron
+  - M. Testa
+  - R.J. Teuscher
+  - J. Therhaag
+  - T. Theveneaux-Pelzer
+  - S. Thoma
+  - J.P. Thomas
+  - E.N. Thompson
+  - P.D. Thompson
+  - P.D. Thompson
+  - A.S. Thompson
+  - L.A. Thomsen
+  - E. Thomson
+  - M. Thomson
+  - W.M. Thong
+  - R.P. Thun
+  - F. Tian
+  - M.J. Tibbetts
+  - T. Tic
+  - V.O. Tikhomirov
+  - Y.A. Tikhonov
+  - S. Timoshenko
+  - E. Tiouchichine
+  - P. Tipton
+  - S. Tisserant
+  - T. Todorov
+  - S. Todorova-Nova
+  - B. Toggerson
+  - J. Tojo
+  - "S. Tok\xE1r"
+  - K. Tokushuku
+  - K. Tollefson
+  - M. Tomoto
+  - L. Tompkins
+  - K. Toms
+  - A. Tonoyan
+  - C. Topfel
+  - E. Torrence
+  - H. Torres
+  - "E. Torr\xF3 Pastor"
+  - J. Toth
+  - F. Touchard
+  - D.R. Tovey
+  - T. Trefzger
+  - L. Tremblet
+  - A. Tricoli
+  - I.M. Trigger
+  - S. Trincaz-Duvoid
+  - M.F. Tripiana
+  - N. Triplett
+  - W. Trischuk
+  - "B. Trocm\xE9"
+  - C. Troncon
+  - M. Trottier-McDonald
+  - M. Trzebinski
+  - A. Trzupek
+  - C. Tsarouchas
+  - J.C-L. Tseng
+  - M. Tsiakiris
+  - P.V. Tsiareshka
+  - D. Tsionou
+  - G. Tsipolitis
+  - S. Tsiskaridze
+  - V. Tsiskaridze
+  - E.G. Tskhadadze
+  - I.I. Tsukerman
+  - V. Tsulaia
+  - J.-W. Tsung
+  - S. Tsuno
+  - D. Tsybychev
+  - A. Tua
+  - A. Tudorache
+  - V. Tudorache
+  - J.M. Tuggle
+  - D. Turecek
+  - I. Turk Cakir
+  - E. Turlay
+  - R. Turra
+  - P.M. Tuts
+  - A. Tykhonov
+  - M. Tylmad
+  - K. Uchida
+  - I. Ueda
+  - R. Ueno
+  - M. Ugland
+  - M. Uhlenbrock
+  - M. Uhrmacher
+  - F. Ukegawa
+  - G. Unal
+  - A. Undrus
+  - G. Unel
+  - Y. Unno
+  - D. Urbaniec
+  - P. Urquijo
+  - G. Usai
+  - M. Uslenghi
+  - L. Vacavant
+  - V. Vacek
+  - B. Vachon
+  - S. Valentinetti
+  - A. Valero
+  - S. Valkar
+  - E. Valladolid Gallego
+  - S. Vallecorsa
+  - J.A. Valls Ferrer
+  - P.C. Van Der Deijl
+  - R. van der Geer
+  - H. van der Graaf
+  - R. Van Der Leeuw
+  - E. van der Poel
+  - D. van der Ster
+  - N. van Eldik
+  - P. van Gemmeren
+  - I. van Vulpen
+  - M. Vanadia
+  - W. Vandelli
+  - A. Vaniachine
+  - P. Vankov
+  - F. Vannucci
+  - R. Vari
+  - T. Varol
+  - D. Varouchas
+  - A. Vartapetian
+  - K.E. Varvell
+  - V.I. Vassilakopoulos
+  - F. Vazeille
+  - T. Vazquez Schroeder
+  - F. Veloso
+  - S. Veneziano
+  - A. Ventura
+  - D. Ventura
+  - M. Venturi
+  - N. Venturi
+  - V. Vercesi
+  - M. Verducci
+  - W. Verkerke
+  - J.C. Vermeulen
+  - A. Vest
+  - M.C. Vetterli
+  - I. Vichou
+  - T. Vickey
+  - O.E. Vickey Boeriu
+  - G.H.A. Viehhauser
+  - S. Viel
+  - M. Villa
+  - M. Villaplana Perez
+  - E. Vilucchi
+  - M.G. Vincter
+  - E. Vinek
+  - V.B. Vinogradov
+  - J. Virzi
+  - O. Vitells
+  - M. Viti
+  - I. Vivarelli
+  - F. Vives Vaque
+  - S. Vlachos
+  - D. Vladoiu
+  - M. Vlasak
+  - A. Vogel
+  - P. Vokac
+  - G. Volpi
+  - M. Volpi
+  - H. von der Schmitt
+  - H. von Radziewski
+  - E. von Toerne
+  - V. Vorobel
+  - V. Vorwerk
+  - M. Vos
+  - R. Voss
+  - T.T. Voss
+  - J.H. Vossebeld
+  - N. Vranjes
+  - M. Vranjes Milosavljevic
+  - V. Vrba
+  - M. Vreeswijk
+  - T. Vu Anh
+  - R. Vuillermet
+  - I. Vukotic
+  - W. Wagner
+  - P. Wagner
+  - S. Wahrmund
+  - J. Wakabayashi
+  - S. Walch
+  - J. Walder
+  - R. Walker
+  - W. Walkowiak
+  - R. Wall
+  - P. Waller
+  - B. Walsh
+  - C. Wang
+  - H. Wang
+  - H. Wang
+  - J. Wang
+  - J. Wang
+  - R. Wang
+  - S.M. Wang
+  - T. Wang
+  - A. Warburton
+  - C.P. Ward
+  - D.R. Wardrope
+  - M. Warsinsky
+  - A. Washbrook
+  - C. Wasicki
+  - I. Watanabe
+  - P.M. Watkins
+  - A.T. Watson
+  - I.J. Watson
+  - M.F. Watson
+  - G. Watts
+  - S. Watts
+  - A.T. Waugh
+  - B.M. Waugh
+  - M.S. Weber
+  - P. Weber
+  - J.S. Webster
+  - A.R. Weidberg
+  - P. Weigell
+  - J. Weingarten
+  - C. Weiser
+  - P.S. Wells
+  - T. Wenaus
+  - D. Wendland
+  - Z. Weng
+  - T. Wengler
+  - S. Wenig
+  - N. Wermes
+  - M. Werner
+  - P. Werner
+  - M. Werth
+  - M. Wessels
+  - J. Wetter
+  - C. Weydert
+  - K. Whalen
+  - A. White
+  - M.J. White
+  - S.R. Whitehead
+  - D. Whiteson
+  - D. Whittington
+  - F. Wicek
+  - D. Wicke
+  - F.J. Wickens
+  - W. Wiedenmann
+  - M. Wielers
+  - P. Wienemann
+  - C. Wiglesworth
+  - L.A.M. Wiik-Fuchs
+  - P.A. Wijeratne
+  - A. Wildauer
+  - M.A. Wildt
+  - H.G. Wilkens
+  - J.Z. Will
+  - E. Williams
+  - H.H. Williams
+  - S. Willocq
+  - J.A. Wilson
+  - A. Wilson
+  - I. Wingerter-Seez
+  - S. Winkelmann
+  - F. Winklmeier
+  - M. Wittgen
+  - S.J. Wollstadt
+  - M.W. Wolter
+  - H. Wolters
+  - W.C. Wong
+  - G. Wooden
+  - B.K. Wosiek
+  - J. Wotschack
+  - M.J. Woudstra
+  - K.W. Wozniak
+  - K. Wraight
+  - M. Wright
+  - B. Wrona
+  - S.L. Wu
+  - X. Wu
+  - Y. Wu
+  - E. Wulf
+  - B.M. Wynne
+  - S. Xella
+  - M. Xiao
+  - S. Xie
+  - C. Xu
+  - D. Xu
+  - B. Yabsley
+  - S. Yacoob
+  - M. Yamada
+  - H. Yamaguchi
+  - A. Yamamoto
+  - K. Yamamoto
+  - S. Yamamoto
+  - T. Yamamura
+  - T. Yamanaka
+  - T. Yamazaki
+  - Y. Yamazaki
+  - Z. Yan
+  - H. Yang
+  - U.K. Yang
+  - Y. Yang
+  - Z. Yang
+  - S. Yanush
+  - L. Yao
+  - Y. Yao
+  - Y. Yasu
+  - G.V. Ybeles Smit
+  - J. Ye
+  - S. Ye
+  - M. Yilmaz
+  - R. Yoosoofmiya
+  - K. Yorita
+  - R. Yoshida
+  - K. Yoshihara
+  - C. Young
+  - C.J. Young
+  - S. Youssef
+  - J. Yu
+  - J. Yu
+  - L. Yuan
+  - A. Yurkewicz
+  - M. Byszewski
+  - B. Zabinski
+  - R. Zaidan
+  - A.M. Zaitsev
+  - Z. Zajacova
+  - L. Zanello
+  - D. Zanzi
+  - A. Zaytsev
+  - C. Zeitnitz
+  - M. Zeman
+  - A. Zemla
+  - C. Zendler
+  - O. Zenin
+  - "T. \u017Deni\u0161"
+  - Z. Zinonos
+  - S. Zenz
+  - D. Zerwas
+  - G. Zevi della Porta
+  - D. Zhang
+  - H. Zhang
+  - J. Zhang
+  - X. Zhang
+  - Z. Zhang
+  - L. Zhao
+  - Z. Zhao
+  - A. Zhemchugov
+  - J. Zhong
+  - B. Zhou
+  - N. Zhou
+  - C.G. Zhu
+  - H. Zhu
+  - J. Zhu
+  - Y. Zhu
+  - X. Zhuang
+  - V. Zhuravlov
+  - D. Zieminska
+  - N.I. Zimin
+  - R. Zimmermann
+  - S. Zimmermann
+  - S. Zimmermann
+  - M. Ziolkowski
+  - G. Zobernig
+  - A. Zoccoli
+  - M. zur Nedden
+  - V. Zutshi
+  - L. Zwalinski
+  publisher: Nuclear Physics A
+  date: '2013-05-01'
+  link: https://doi.org/hb6v54
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1140/epjc/s10052-013-2509-4
   title: Measurement of the inclusive jet cross-section in pp collisions at $\sqrt{s}=2.76\
     \mbox{TeV}$ and comparison to the inclusive jet cross-section at $\sqrt{s} =7\
@@ -507970,12 +511153,20 @@
   file: orcid.yaml
 - id: doi:10.1016/j.physletb.2013.06.057
   title: "Measurement with the ATLAS detector of multi-particle azimuthal correlations\
-    \ in <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si1.gif\"\
-    \ overflow=\"scroll\"><mml:mi>p</mml:mi><mml:mo>+</mml:mo><mml:mtext>Pb</mml:mtext></mml:math>\
-    \ collisions at <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"\
-    si2.gif\" overflow=\"scroll\"><mml:msqrt><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi\
-    \ mathvariant=\"normal\">NN</mml:mi></mml:mrow></mml:msub></mml:msqrt><mml:mo>=</mml:mo><mml:mn>5.02</mml:mn><mml:mtext>\_\
-    </mml:mtext><mml:mtext>TeV</mml:mtext></mml:math>"
+    \ in\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+    \ altimg=\"si1.gif\" overflow=\"scroll\">\n                      <mml:mi>p</mml:mi>\n\
+    \                      <mml:mo>+</mml:mo>\n                      <mml:mtext>Pb</mml:mtext>\n\
+    \                    </mml:math>\n                    collisions at\n        \
+    \            <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"\
+    si2.gif\" overflow=\"scroll\">\n                      <mml:msqrt>\n          \
+    \              <mml:msub>\n                          <mml:mrow>\n            \
+    \                <mml:mi>s</mml:mi>\n                          </mml:mrow>\n \
+    \                         <mml:mrow>\n                            <mml:mi mathvariant=\"\
+    normal\">NN</mml:mi>\n                          </mml:mrow>\n                \
+    \        </mml:msub>\n                      </mml:msqrt>\n                   \
+    \   <mml:mo>=</mml:mo>\n                      <mml:mn>5.02</mml:mn>\n        \
+    \              <mml:mtext>\_</mml:mtext>\n                      <mml:mtext>TeV</mml:mtext>\n\
+    \                    </mml:math>"
   authors:
   - G. Aad
   - T. Abajyan
@@ -615786,9 +618977,17 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1103/PhysRevC.86.014907
-  title: Measurement of the azimuthal anisotropy for charged particle production in<mml:math
-    xmlns:mml="http://www.w3.org/1998/Math/MathML" display="inline"><mml:mrow><mml:msqrt><mml:msub><mml:mi>s</mml:mi><mml:mrow><mml:mi>N</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:msqrt><mml:mo>=</mml:mo><mml:mn>2.76</mml:mn></mml:mrow></mml:math>TeV
-    lead-lead collisions with the ATLAS detector
+  title: "Measurement of the azimuthal anisotropy for charged particle production\
+    \ in\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+    \ display=\"inline\">\n                      <mml:mrow>\n                    \
+    \    <mml:msqrt>\n                          <mml:msub>\n                     \
+    \       <mml:mi>s</mml:mi>\n                            <mml:mrow>\n         \
+    \                     <mml:mi>N</mml:mi>\n                              <mml:mi>N</mml:mi>\n\
+    \                            </mml:mrow>\n                          </mml:msub>\n\
+    \                        </mml:msqrt>\n                        <mml:mo>=</mml:mo>\n\
+    \                        <mml:mn>2.76</mml:mn>\n                      </mml:mrow>\n\
+    \                    </mml:math>\n                    TeV lead-lead collisions\
+    \ with the ATLAS detector"
   authors:
   - G. Aad
   - B. Abbott
@@ -883425,11 +886624,17 @@
   file: orcid.yaml
 - id: doi:10.1103/PhysRevLett.110.182302
   title: "Observation of Associated Near-Side and Away-Side Long-Range Correlations\
-    \ in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"\
-    ><mml:msqrt><mml:msub><mml:mi>s</mml:mi><mml:mrow><mml:mi>N</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:msub></mml:msqrt><mml:mo\
-    \ mathvariant=\"bold\">=</mml:mo><mml:mn>5.02</mml:mn><mml:mtext>\u2009</mml:mtext><mml:mtext>\u2009\
-    </mml:mtext><mml:mi>TeV</mml:mi></mml:math>Proton-Lead Collisions with the ATLAS\
-    \ Detector"
+    \ in\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+    \ display=\"inline\">\n                      <mml:msqrt>\n                   \
+    \     <mml:msub>\n                          <mml:mi>s</mml:mi>\n             \
+    \             <mml:mrow>\n                            <mml:mi>N</mml:mi>\n   \
+    \                         <mml:mi>N</mml:mi>\n                          </mml:mrow>\n\
+    \                        </mml:msub>\n                      </mml:msqrt>\n   \
+    \                   <mml:mo mathvariant=\"bold\">=</mml:mo>\n                \
+    \      <mml:mn>5.02</mml:mn>\n                      <mml:mtext>\u2009</mml:mtext>\n\
+    \                      <mml:mtext>\u2009</mml:mtext>\n                      <mml:mi>TeV</mml:mi>\n\
+    \                    </mml:math>\n                    Proton-Lead Collisions with\
+    \ the ATLAS Detector"
   authors:
   - G. Aad
   - T. Abajyan
@@ -1045785,11 +1048990,16 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1103/PhysRevLett.106.172002
-  title: "Measurement of Dijet Azimuthal Decorrelations in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
-    \ display=\"inline\"><mml:mi>p</mml:mi><mml:mi>p</mml:mi></mml:math>Collisions\
-    \ at<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"\
-    ><mml:msqrt><mml:mi>s</mml:mi></mml:msqrt><mml:mo>=</mml:mo><mml:mn>7</mml:mn><mml:mtext>\u2009\
-    </mml:mtext><mml:mtext>\u2009</mml:mtext><mml:mi>TeV</mml:mi></mml:math>"
+  title: "Measurement of Dijet Azimuthal Decorrelations in\n                    <mml:math\
+    \ xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n     \
+    \                 <mml:mi>p</mml:mi>\n                      <mml:mi>p</mml:mi>\n\
+    \                    </mml:math>\n                    Collisions at\n        \
+    \            <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"\
+    inline\">\n                      <mml:msqrt>\n                        <mml:mi>s</mml:mi>\n\
+    \                      </mml:msqrt>\n                      <mml:mo>=</mml:mo>\n\
+    \                      <mml:mn>7</mml:mn>\n                      <mml:mtext>\u2009\
+    </mml:mtext>\n                      <mml:mtext>\u2009</mml:mtext>\n          \
+    \            <mml:mi>TeV</mml:mi>\n                    </mml:math>"
   authors:
   - G. Aad
   - B. Abbott
@@ -1108978,6 +1112188,30 @@
   orcid: 0000-0002-4885-6241
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.58530/2024/3109
+  title: Robust generation of tract-wise myelination measurements from infant T1-
+    and T2-weighted MRI using synth based deep learning methods
+  authors:
+  - Henry Tregidgo
+  - Layla Bradford
+  - Simone Williams
+  - Niall Bourke
+  - Michal Zieff
+  - Zayaan Goolam Nabi
+  - Thandeka Mazubane
+  - Peter Wijeratne
+  - "Lilla Z\xF6llei"
+  - Juan Eugenio Iglesias
+  - Steven Williams
+  - Derek Jones
+  - Kirsty Donald
+  - Daniel Alexander
+  publisher: ISMRM Annual Meeting
+  date: ''
+  link: https://doi.org/hb569m
+  orcid: 0000-0002-4885-6241
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1111/1365-2664.70000
   title: "Mitigating bias in long\u2010term terrestrial ecoacoustic studies"
   authors:
@@ -1109000,22 +1112234,9 @@
   orcid: 0000-0003-1468-547X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.48550/arxiv.2503.10527
-  title: 'Evaluating structural uncertainty in accelerated MRI: are voxelwise measures
+- title: 'Evaluating structural uncertainty in accelerated MRI: are voxelwise measures
     useful surrogates?'
-  authors:
-  - Luca L. C. Trautmann
-  - Peter A. Wijeratne
-  - Itamar Ronen
-  - Ivor J. A. Simpson
-  publisher: arXiv
-  date: '2025-01-01'
-  link: https://doi.org/hbnzqv
-  orcid: 0009-0001-3517-5471
-  plugin: orcid.py
-  file: orcid.yaml
-- title: How Should We Evaluate Uncertainty in Accelerated MRI Reconstruction?
-  date: '2026-02-17'
+  date: '2026-06-17'
   orcid: 0009-0001-3517-5471
   plugin: orcid.py
   file: orcid.yaml
